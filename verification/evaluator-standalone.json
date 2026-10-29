@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-25",
+  "scope": "Bounded two-state reproduction; no training or new manifold-wide claim.",
+  "python": "3.12.14",
+  "jax": "0.10.0",
+  "numpy": "2.4.4",
+  "backend": "cpu",
+  "precision": "float64",
+  "controls": {
+    "analytic": [
+      {
+        "control": "flat",
+        "K": 0.0,
+        "S": 0.0,
+        "E": 1.0
+      },
+      {
+        "control": "hyperbolic",
+        "K": -1.000000000000001,
+        "S": -12.000000000000007,
+        "E": 6.204759601397635e-16
+      },
+      {
+        "control": "sphere",
+        "K": 1.0000000000000009,
+        "S": 12.000000000000009,
+        "E": 2.0000000000000004
+      },
+      {
+        "control": "scaled-hyperbolic",
+        "K": -0.5000000000000006,
+        "S": -6.0000000000000036,
+        "E": 0.4999999999999998
+      }
+    ],
+    "deliberate_failures_detected": [
+      "wrong curvature sign",
+      "wrong normalization",
+      "incorrect nonzero-K normal sign"
+    ]
+  },
+  "states": {
+    "local": {
+      "checkpoint": "R4-022",
+      "step": 402034,
+      "checkpoint_sha256": "acd17067d2e4fc9b6f9bdb5414b742a395e9c4a7f7b6aa4f3f134e0ef89ac152",
+      "export_sha256": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176",
+      "samples": [
+        {
+          "id": "body",
+          "E": 0.0003167056645581392,
+          "S": -12.002468057572525,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cap",
+          "E": 0.00015706436298734225,
+          "S": -11.999441703194513,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "exact-core",
+          "E": 0.000120191285277245,
+          "S": -11.999433129622325,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "reflection-support",
+          "E": 0.0006930694686015357,
+          "S": -12.000603295542405,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp0-transition",
+          "E": 0.00041805140301422205,
+          "S": -12.000201476244158,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp0-deep",
+          "E": 6.672829932637711e-05,
+          "S": -12.000458361403954,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp1-transition",
+          "E": 0.0003430165979986977,
+          "S": -12.00028247543843,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp1-deep",
+          "E": 0.00030815778763335604,
+          "S": -11.996428968778401,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp2-transition",
+          "E": 0.00028186812573519337,
+          "S": -12.00129460565012,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp2-deep",
+          "E": 0.0001741203042880955,
+          "S": -11.998056334222351,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp3-transition",
+          "E": 0.0004786892379830293,
+          "S": -12.00395839298999,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp3-deep",
+          "E": 0.00020275301346796209,
+          "S": -11.997662284125646,
+          "saved_derivative_reconstruction_passed": true
+        }
+      ],
+      "interfaces": [
+        {
+          "id": 0,
+          "length_distortion": 3.5148702463450374e-05,
+          "bending_max": 0.00013372489340539805
+        },
+        {
+          "id": 1,
+          "length_distortion": 0.00010498274892027453,
+          "bending_max": 0.00037002326771212203
+        }
+      ],
+      "invalid_inputs_rejected": 4,
+      "fresh_metric_evaluation": false
+    },
+    "compatible": {
+      "checkpoint": "R4-087",
+      "step": 26838,
+      "checkpoint_sha256": "be63d741ed07a9fd3bc7fa7e00aa9a4e0f49253da11db084fcd8c6ed9deba9bb",
+      "export_sha256": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+      "samples": [
+        {
+          "id": "body",
+          "E": 0.005928013707030854,
+          "S": -12.051572297620375,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cap",
+          "E": 0.019525168454235815,
+          "S": -12.04260583989116,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "exact-core",
+          "E": 0.00263716957343788,
+          "S": -12.005228734689688,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "reflection-support",
+          "E": 0.017843141171380684,
+          "S": -12.111488179329644,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp0-transition",
+          "E": 0.006068410450623684,
+          "S": -12.01848918453865,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp0-deep",
+          "E": 0.00010060690714781707,
+          "S": -11.999084581538353,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp1-transition",
+          "E": 0.003269702419751176,
+          "S": -11.970777529178074,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp1-deep",
+          "E": 0.00010063012996243803,
+          "S": -11.999699269342692,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp2-transition",
+          "E": 0.003874732408057892,
+          "S": -11.969554608154535,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp2-deep",
+          "E": 0.00016041561284466503,
+          "S": -12.001705219606588,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp3-transition",
+          "E": 0.002326903928730218,
+          "S": -11.981116498867959,
+          "saved_derivative_reconstruction_passed": true
+        },
+        {
+          "id": "cusp3-deep",
+          "E": 0.0001105085477251892,
+          "S": -12.001023870900704,
+          "saved_derivative_reconstruction_passed": true
+        }
+      ],
+      "interfaces": [
+        {
+          "id": 0,
+          "length_distortion": 8.881784197001248e-16,
+          "bending_max": 1.220353307059415e-15
+        },
+        {
+          "id": 1,
+          "length_distortion": 1.4432899320127023e-15,
+          "bending_max": 2.0219296742114106e-15
+        }
+      ],
+      "invalid_inputs_rejected": 4,
+      "fresh_metric_evaluation": false
+    }
+  },
+  "sample_count_per_state": 12,
+  "canonical_sites_verified": 37,
+  "total_seconds": 3.1217510160058737,
+  "peak_rss_mib": 580.30859375,
+  "status": "passed"
+}

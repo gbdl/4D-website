@@ -1,0 +1,59 @@
+{
+  "scope": "Two saved face points (one vertical, one spherical); demonstration only, not all-face qualification.",
+  "source_files": {
+    "local": "55bbe911b04e7ad9993ebcf92a8fb2d5548edf08e80911f51160cb4b81ff5969",
+    "compatible": "3adb7e95599bbf9ae71f49fe0a17e03b4fd854ff9d05c04f581e9fe9d7c19b1f"
+  },
+  "faces": [
+    {
+      "id": 0,
+      "pair_id": 0,
+      "source_row": 0,
+      "facet": "B_1",
+      "copies": {
+        "eta": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "facet": "B_1",
+        "xi": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "chart": "core"
+    },
+    {
+      "id": 1,
+      "pair_id": 32,
+      "source_row": 256,
+      "facet": "H_1",
+      "copies": {
+        "eta": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "facet": "H_1",
+        "xi": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "chart": "core"
+    }
+  ],
+  "local_sha256": "e36ea25dddfddc5eb049dab08e23b8483ae598c04c0335a09a5808cacdada201",
+  "compatible_sha256": "d30b8817e938af4ba816e32fafbe5e1a7fc34162f7126a718e24e10dcf9ac9ff"
+}

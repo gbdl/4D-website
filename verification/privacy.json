@@ -1,0 +1,427 @@
+{
+  "date": "2026-10-25",
+  "checked_at_utc": "2026-10-25T22:21:21.045831+00:00",
+  "status": "passed",
+  "scope": "Current public staging allowlist, plus repository workflow and ignore file. No learned metric evaluations.",
+  "public_files_scanned": 119,
+  "repository_metadata_files_scanned": 2,
+  "text_files_scanned": 97,
+  "pdf_files": [
+    {
+      "file": "assets/downloads/two-constructions.pdf",
+      "pages": 17,
+      "metadata_keys": [
+        "/Author",
+        "/CreationDate",
+        "/Creator",
+        "/Keywords",
+        "/ModDate",
+        "/PTEX.Fullbanner",
+        "/Producer",
+        "/Subject",
+        "/Title",
+        "/Trapped"
+      ],
+      "action_types": {
+        "/GoTo": 60,
+        "/URI": 3
+      },
+      "uris": [
+        "https://arxiv.org/abs/2501.00093",
+        "https://arxiv.org/abs/math/0303260",
+        "https://doi.org/10.4171/JEMS/321"
+      ],
+      "attachment_entries": 0,
+      "file_specifications": 0,
+      "objects_inspected": 491
+    },
+    {
+      "file": "public-note/figures/geometry.pdf",
+      "pages": 1,
+      "metadata_keys": [
+        "/CreationDate",
+        "/Creator",
+        "/Producer"
+      ],
+      "action_types": {},
+      "uris": [],
+      "attachment_entries": 0,
+      "file_specifications": 0,
+      "objects_inspected": 43
+    },
+    {
+      "file": "public-note/figures/gluing.pdf",
+      "pages": 1,
+      "metadata_keys": [
+        "/Author",
+        "/CreationDate",
+        "/Creator",
+        "/Producer",
+        "/Subject",
+        "/Title"
+      ],
+      "action_types": {},
+      "uris": [],
+      "attachment_entries": 0,
+      "file_specifications": 0,
+      "objects_inspected": 27
+    },
+    {
+      "file": "public-note/figures/profiles-supplement.pdf",
+      "pages": 1,
+      "metadata_keys": [
+        "/Author",
+        "/CreationDate",
+        "/Creator",
+        "/Producer",
+        "/Subject",
+        "/Title"
+      ],
+      "action_types": {},
+      "uris": [],
+      "attachment_entries": 0,
+      "file_specifications": 0,
+      "objects_inspected": 34
+    },
+    {
+      "file": "public-note/figures/profiles.pdf",
+      "pages": 1,
+      "metadata_keys": [
+        "/Author",
+        "/CreationDate",
+        "/Creator",
+        "/Producer",
+        "/Subject",
+        "/Title"
+      ],
+      "action_types": {},
+      "uris": [],
+      "attachment_entries": 0,
+      "file_specifications": 0,
+      "objects_inspected": 34
+    },
+    {
+      "file": "public-note/figures/spatial.pdf",
+      "pages": 1,
+      "metadata_keys": [
+        "/Author",
+        "/CreationDate",
+        "/Creator",
+        "/Producer",
+        "/Subject",
+        "/Title"
+      ],
+      "action_types": {},
+      "uris": [],
+      "attachment_entries": 0,
+      "file_specifications": 0,
+      "objects_inspected": 43
+    }
+  ],
+  "png_files": [
+    {
+      "file": "assets/figures/cusp-profiles.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "assets/figures/experiment-panels.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "assets/figures/face-and-core-compatibility.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "assets/figures/geometry-charts.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "assets/figures/matched-profiles.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "assets/figures/matched-sections.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "assets/figures/paired-comparisons.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "public-note/figures/geometry.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "public-note/figures/gluing.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "public-note/figures/profiles-supplement.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "public-note/figures/profiles.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    },
+    {
+      "file": "public-note/figures/spatial.png",
+      "metadata_keys": [
+        "Software",
+        "dpi"
+      ],
+      "exif_entries": 0
+    }
+  ],
+  "npz_files": [
+    {
+      "file": "reproduce/fixtures/compatible-interfaces.npz",
+      "array_count": 42,
+      "dtype": "float64 only; no object, string or pickle arrays"
+    },
+    {
+      "file": "reproduce/fixtures/compatible-reference.npz",
+      "array_count": 60,
+      "dtype": "float64 only; no object, string or pickle arrays"
+    },
+    {
+      "file": "reproduce/fixtures/local-interfaces.npz",
+      "array_count": 42,
+      "dtype": "float64 only; no object, string or pickle arrays"
+    },
+    {
+      "file": "reproduce/fixtures/local-reference.npz",
+      "array_count": 60,
+      "dtype": "float64 only; no object, string or pickle arrays"
+    },
+    {
+      "file": "reproduce/weights/compatible.npz",
+      "array_count": 17,
+      "dtype": "float64 only; no object, string or pickle arrays"
+    },
+    {
+      "file": "reproduce/weights/local.npz",
+      "array_count": 11,
+      "dtype": "float64 only; no object, string or pickle arrays"
+    }
+  ],
+  "findings": [],
+  "checks": [
+    "Scanned text and export filenames for operational locations, private account names, absolute paths, scheduler identifiers, private resource links and internal hosts.",
+    "Extracted every PDF page; inspected document and XMP metadata, referenced and xref objects, URI actions, file actions and attachment entries.",
+    "Inspected metadata and EXIF records in every public PNG.",
+    "Inspected archive comments, member names, NPY headers and dtypes in every NPZ; loaded members only with allow_pickle=False.",
+    "Tested the publication allowlist against deliberately recreated internal assessment files, hidden files, bytecode and environment files; retained a mechanical control receipt.",
+    "Loopback preview addresses are permitted local viewing instructions. Scientific hashes, dates and checkpoint identifiers are retained."
+  ],
+  "packaging_exclusions": {
+    "explicit_internal_files": [
+      "verification/editorial-review.json",
+      "verification/math-review.json",
+      "verification/scientific-review.json"
+    ],
+    "recreation_regression_passed": true,
+    "hidden_and_cache_regression_passed": true,
+    "mechanical_receipt_retained": true
+  },
+  "source_repository_check": {
+    "baseline_files_checked": 1592,
+    "file_mismatches": 0,
+    "git_status_unchanged": true,
+    "scope": "Read-only comparison against the fresh revision baseline, including existing unrelated modifications."
+  },
+  "protected_evidence_check": {
+    "files_checked": 29,
+    "file_mismatches": 0,
+    "sha256": {
+      "data/metrics.json": "589e6823f43f0f34dd3536cc52f2ead4864b68e84e6fe8f39c24dd68fe67feb4",
+      "data/experiments.json": "0eced1123a9b3471885781860a3a91deca5203740b45ebf41a4fc3b4417bcdd5",
+      "data/audit.json": "b6b1bccb6d92ccd46ed8e12068659487649f0489e77db0671cf44d1e0cc62d5d",
+      "reproduce/requirements-lock.txt": "0983285713929a6604061e3ff61b5e6a16ba1fdeb62621139472eb71fd30a595",
+      "reproduce/provenance.json": "08329e54a9f2944aed194d55269ec561363d42e4f08443b5d5705ea6df13832c",
+      "reproduce/requirements.txt": "238d790ce3fbfe2ffe7cf3f493f4a872b75610bfa5ade29f50afdf1cd92eeb65",
+      "reproduce/check.py": "5903b24bc82bbcfb95bc2f3b8d4587171b0c0c3119351a3fa8c1096caf9e8233",
+      "reproduce/README.md": "513a70c407ce9c51feede6871dbf3d5fc1101f158b36e1b978692a41593f88b3",
+      "reproduce/requirements-dev.txt": "1438527233ce7beb1cdf4a046b8b5d38f140bd77217ef4df17d5592989d3ec15",
+      "reproduce/fixtures/local-reference.npz": "c953921d573d0a9d9a8dd57d8b3edbc9a52827144828315bcbb78853dce33a6e",
+      "reproduce/fixtures/manifest.json": "adb3c940548ea20d3f1e0c927450a7f92408ddf41eedbe795ad1806372566874",
+      "reproduce/fixtures/interfaces.json": "5d0ac77b7b63f2db650a78822db5773f6edfed4be3345813d9a76bbe241f5b34",
+      "reproduce/fixtures/compatible-reference.npz": "a7b7e2bc738666790777e19e6de6b9a2ffde2e19cdda1a2e280c4bba15fe70c2",
+      "reproduce/fixtures/compatible-interfaces.npz": "d30b8817e938af4ba816e32fafbe5e1a7fc34162f7126a718e24e10dcf9ac9ff",
+      "reproduce/fixtures/geometry.json": "e599716de5a4473eeceb4864e25d6007e7f6c915a9d3f6b62ac4bdbd613d8601",
+      "reproduce/fixtures/local-interfaces.npz": "e36ea25dddfddc5eb049dab08e23b8483ae598c04c0335a09a5808cacdada201",
+      "reproduce/tests/test_companion.py": "1793bdab06f62641ba20824f037b5fbac2f6fb624a8e2f011a59e3e8a6c251eb",
+      "reproduce/metric_demo/__init__.py": "919b63ef90ef193ba6c6c1401a237399f5a7cd187d7d20c705ed05e023f522f8",
+      "reproduce/metric_demo/models.py": "834982bfef25cc24a35df4836687a92e45ba1d8e5040baa1cbc0c930afd12d63",
+      "reproduce/metric_demo/numpy_curvature.py": "ef6d6ea9ca26a3ef6ddcd8d7b521bdb68ba0269907e4b6e2e9d50fc568bdf2ae",
+      "reproduce/metric_demo/_geom.py": "5c22dc6dbf4a89e9bb889677d28ff7bca61d1c277255c445cd5ec49fd7cd9d8a",
+      "reproduce/metric_demo/__main__.py": "f9f15e51de10273d4ae03843ed28b4d546d7824090461802946370fc64d17946",
+      "reproduce/metric_demo/api.py": "8367213375958647b1987eee1f218aef3229f9c7bfd0cc72554ba9cf162f8799",
+      "reproduce/metric_demo/_nets.py": "79a826591108f80f536b6383a54fbf1d71a4961e3302e714f33425f2b8760a4c",
+      "reproduce/metric_demo/_curv.py": "f8c73c9cff97d10a35c8d8b3613bb84ecbe8b618644d19e672666023d83d6806",
+      "reproduce/weights/local.npz": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176",
+      "reproduce/weights/compatible.npz": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+      "reproduce/weights/compatible.json": "704072ced6d7f379ab6b37579dc53a9e515fcc53bbe4d62d610044846e45aada",
+      "reproduce/weights/local.json": "8c0841a4c2b702be91160a7d9e08a3767ebc378823cb9e30408925744724582f"
+    }
+  },
+  "public_file_sha256": {
+    "CITATION.cff": "7f98f71bd21aca5ebf4f55a72cf28102fe5e32609a00efc5931880eb91fb44b2",
+    "DEPLOYMENT.md": "93369f6efa17d4b8ccd6d9b81f9deae56576eb9b3d1b36724a6b56c86bd7a9a5",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "LICENSE-CONTENT": "b77d8f6f7c7ed0a8a7bf60834b21e2df37b7c669fd7ea3526653bfdfa17c1e7e",
+    "README.md": "1805d601b82cc8139f5c2078f905be690688e59125b81c1a20a4d4bb7e8ef09f",
+    "THIRD_PARTY_NOTICES.md": "4c2aa98b8e531314335c3c753d45d142396ee98f06efb0642d1064a5b1996e04",
+    "assets/app.js": "94b9bc45a463556a23ebc04dee9316450f9d82e6597243e494e1b68eb595bc99",
+    "assets/downloads/two-constructions.pdf": "b67e79f369ef4cad4149565aa554c13993caa4e657e71fda4f3a9e5ba98f18ec",
+    "assets/favicon.svg": "b3ebc411493944a831b08e1023061819792f0b83165fe73829157840e8db0214",
+    "assets/figures/core-area-mobile.svg": "f2ee5a3e62d6650f6b2c0a0127f8ed41e0b3c1c8d85abe5caac9a52898373228",
+    "assets/figures/core-area.svg": "30fc25756213b6793341d80a0c19fe8dd1772fb1dacf136a92e53b38030c13d3",
+    "assets/figures/cusp-profiles.png": "6393cc22fe012676844985196b8c632265f8264ca5a3edfa5f6964afbc40a9b9",
+    "assets/figures/experiment-panels.png": "c79201d1f8db9160ba8142ef90ebc05d62d046b256b0f4a1201722f6da24a8d0",
+    "assets/figures/face-and-core-compatibility.png": "5235decd4021a3dc23771ee3110e48e1077dbc6c6c93e5e8d972a4160fd77a57",
+    "assets/figures/geometry-charts.png": "e9340a013cdc42df5ae26fda9d98052c33033e0795f9c99d20a345b03758ab3c",
+    "assets/figures/matched-profiles.png": "87587682d5afcc5e46ef00a0c9b3c99df7ca4a03e84d8d2d48eb3a93450bef45",
+    "assets/figures/matched-sections.png": "78e818bd9c2ff7d3a81e96e920c0053f6d88466cc442114aa911439a85ba77a1",
+    "assets/figures/paired-comparisons.png": "accbf1e9d2f700b56a99f957b016385ee7a3e4950814bcece75d49aaaba746cb",
+    "assets/style.css": "ec7722a1626c0261a4be0c8cd98303797381b0aee577ae88bf16deae03de1cbe",
+    "data/README.md": "51f27947705b4280b244f96f8e6dcaa010ccd070785abc48ec8c5c6bc7ff1181",
+    "data/audit-supplement.json": "828b74f17726a99ec49c4ed9f3bd9f1dc4feaacf75c3b295cf84ac3ad52d5054",
+    "data/audit.json": "b6b1bccb6d92ccd46ed8e12068659487649f0489e77db0671cf44d1e0cc62d5d",
+    "data/experiments.json": "0eced1123a9b3471885781860a3a91deca5203740b45ebf41a4fc3b4417bcdd5",
+    "data/metrics.json": "589e6823f43f0f34dd3536cc52f2ead4864b68e84e6fe8f39c24dd68fe67feb4",
+    "data/tables/audit-supplement.csv": "134959cec1a4e2feb11ff0ea3ff55ba0f06911826def5907bd3018e525ef339d",
+    "data/tables/audit-supplement.html": "0982f77967caa1f5869ef2da2f6c56008f28884831e7e20f4aa7cfcab4e37860",
+    "data/tables/core-strata.csv": "a81344a2612b7815550dc80b715855f9db5907956b7f7477d3380bd06731caf3",
+    "data/tables/core-strata.html": "330ba0b48916b71092775f89d3eeaed416821581cccd230dab38e88f5abd0269",
+    "data/tables/experiments.csv": "6a2aca797692208b7ad154916c08b6b97336875033e467a38aaba3b9973938dc",
+    "data/tables/experiments.html": "23f2a82ee4dc5f9f9aa2b2321a8db930c954e0921f3b3ba21d76cf7570e6a78c",
+    "data/tables/faces.csv": "c51b62884ff3b54f9b62de7189d50f911bb27e39f5610e4f47edf52f17762ac1",
+    "data/tables/faces.html": "3d1246b7b21669d372feb78238887186d56267f4fc339ca08c1941eff6be75af",
+    "data/tables/maps.csv": "5f62194a6acb35fa56994b01ac9fa02ee6a541d5785cd74e6e1ef6eed6585a09",
+    "data/tables/paired-comparisons.csv": "3428b20713614e681d6a7b9b07daad4d63977d4e4310090c0249200786787b08",
+    "data/tables/paired-summary.csv": "72a78e3b0b664ba66281817c987e512386d5d7e3a8350a0b8199293d9d2d1da9",
+    "data/tables/paired-summary.html": "a2e79ba9390ac32458f4cf4ac5c271a28ba985379a732cd11cf0ec53aa4b7c6a",
+    "data/tables/profiles.csv": "1e626a2191b3941377c5f26eec829ec8130a6e04e2ba7b2c2ca49b1b4bfe896b",
+    "index.html": "a45b1ec701fd8dbedccb60954fcf183aa85f6aa3e653c9178699cd7b5b6530d8",
+    "public-note/README.md": "09f1d4e57946223356ed43e8b3d10b2ed9a955a51af06625cca6fedcfcc6f052",
+    "public-note/build.py": "e72301958637c22eca5de24aed8c932c59b7348f63893db626095a4502c41e3a",
+    "public-note/build_audit_table.py": "ee72527cb22e5121972a5b0abb0fdbf21513d7a6474de37c720eddc9aa1d01f4",
+    "public-note/data/audit-20261023.json": "a2f2e457a31b1953eb5e4166d86f6e34685c4c24c6fee974e09f933ea09160fa",
+    "public-note/data/audit-supplement.json": "828b74f17726a99ec49c4ed9f3bd9f1dc4feaacf75c3b295cf84ac3ad52d5054",
+    "public-note/data/source-hashes.json": "52dd92410cb67d9f9ef667fed32cbf6f3ffc8eb95800a168f0652bb09cdf57ed",
+    "public-note/figures/geometry.pdf": "3b57c7bc7f8a921832759ecac50a9bb747e480f4d2433a13eb12a00e3bcfd67e",
+    "public-note/figures/geometry.png": "e543b83cdf69b5f35cb258e285682dc5c571a299b505a31524f405d8d693a0cc",
+    "public-note/figures/gluing.pdf": "85474d27813e2264fa68e0767cb15417accc80ee23dc1f5caf84a83a1533b730",
+    "public-note/figures/gluing.png": "f7cb5247dc8dcffddb85ad9626f74c68bf60d08e8b7f64c6e6c5ee9a88e8bacf",
+    "public-note/figures/profiles-supplement.pdf": "414b7682bb8f95cc4a52652bde137f09bd841ab55dfa53654efae1686e5c5d6f",
+    "public-note/figures/profiles-supplement.png": "b1f9121f7cad9b862ce280a97ad3c8a1c62f1e9d30ea9e0f634a8a8251d98579",
+    "public-note/figures/profiles.pdf": "d24e678b92a5799fc95b0198e2c1d900339f030ff4c29e07fae244330bc0eff5",
+    "public-note/figures/profiles.png": "2df992d50200781599623175b2693f4263deac14aae0701e1083123643da8c91",
+    "public-note/figures/spatial.pdf": "183374378361019ee5dfbd4856b30c8e3756571c603030d331986740aa03fad9",
+    "public-note/figures/spatial.png": "21ea51ae7f767794f52aef65d4e8af35dc5571c923020d5f90fd934de3c9c599",
+    "public-note/macros-audit.tex": "0b81ecf06f64fd8d66836e75bd1db0abe7ff32197061a028d5b621c179bfdc38",
+    "public-note/macros.tex": "7bdaf625940d2609aebde9c0f6eafe31f732a9daa8c2a5b5400d90f0be7fef84",
+    "public-note/main.tex": "f19bd2f99557f4ab942ccfb62b6a16d45e94e5191a7f33fc7436e150be457b6d",
+    "public-note/references.bib": "90a222df33905044d1b1b1f3c2a0e8b40e858c40df930739f4e6ec990a49f956",
+    "public-note/sections/appendix.tex": "4fdb18bcfcb2a6f1a6d43ef074babc51486d28312e67865de88534504812870f",
+    "public-note/sections/audit-update.tex": "827a0e0601fdabaf0964e66df5c063ad09a2906be23b23be530889e66c05d916",
+    "public-note/sections/constructions.tex": "d97239ef8a103e6a6829d073a0911b7cfc8e67d26d14cc18bc803bd266589059",
+    "public-note/sections/diagnostic-validation.tex": "3874ca550811d10b1ad5b98381c441ebdf61976bc3854996886c3e4e64114d29",
+    "public-note/sections/discussion.tex": "45f22b2729f7f2eee1919d3cb2cb5c5883ca0a83265258b75cc709eea0563c55",
+    "public-note/sections/focused-results.tex": "b06e2df2bec266327dd414269972a03d7688beed1418275851d63bcbdd4915f1",
+    "public-note/sections/geometry.tex": "631f6fead8fd0295185792549526da261912aa689aa9e0fe7fc8f6ea4994eba3",
+    "public-note/sections/results.tex": "fc18f165c7f33898d0598c8c0a511d1cf97ccdb5d056b933727fc0884b1cb979",
+    "public-note/sections/training.tex": "1d682b0f558cf239a4e2a88212e3d81b17bb374204ab374e3d9cb0019fdc0aa6",
+    "public-note/tables/audit.tex": "3f7311396ee5e01c32e0d7ef87c711482f88dc0c228f6a96b011ec8835e4c8dc",
+    "public-note/tables/invariants.tex": "e0f44ab48e080d97b62342b8918487f7a804f95548ce4d6853eed534a2221ae8",
+    "public-note/tables/profiles.tex": "ec46a0b927f9ba82ac3bd3439e61aace19436b865ee2ab45579a9c3ee87ef760",
+    "public-note/tables/regions.tex": "9a5d41719eea06f6cabf2ff0c3e6a502647e6b16eaf8f4e76dddacff3f3408f2",
+    "public-note/tables/results.tex": "27073da7af9275bdda49179017da9ac19f083cb434f19399f6be5cd7328e9617",
+    "public-note/tables/selected-terminal.tex": "5265edd4e9801b8556fbfc888a896519931c3184fa7db0d34070f1e60cd202f1",
+    "reproduce/README.md": "513a70c407ce9c51feede6871dbf3d5fc1101f158b36e1b978692a41593f88b3",
+    "reproduce/check.py": "5903b24bc82bbcfb95bc2f3b8d4587171b0c0c3119351a3fa8c1096caf9e8233",
+    "reproduce/fixtures/compatible-interfaces.npz": "d30b8817e938af4ba816e32fafbe5e1a7fc34162f7126a718e24e10dcf9ac9ff",
+    "reproduce/fixtures/compatible-reference.npz": "a7b7e2bc738666790777e19e6de6b9a2ffde2e19cdda1a2e280c4bba15fe70c2",
+    "reproduce/fixtures/geometry.json": "e599716de5a4473eeceb4864e25d6007e7f6c915a9d3f6b62ac4bdbd613d8601",
+    "reproduce/fixtures/interfaces.json": "5d0ac77b7b63f2db650a78822db5773f6edfed4be3345813d9a76bbe241f5b34",
+    "reproduce/fixtures/local-interfaces.npz": "e36ea25dddfddc5eb049dab08e23b8483ae598c04c0335a09a5808cacdada201",
+    "reproduce/fixtures/local-reference.npz": "c953921d573d0a9d9a8dd57d8b3edbc9a52827144828315bcbb78853dce33a6e",
+    "reproduce/fixtures/manifest.json": "adb3c940548ea20d3f1e0c927450a7f92408ddf41eedbe795ad1806372566874",
+    "reproduce/metric_demo/__init__.py": "919b63ef90ef193ba6c6c1401a237399f5a7cd187d7d20c705ed05e023f522f8",
+    "reproduce/metric_demo/__main__.py": "f9f15e51de10273d4ae03843ed28b4d546d7824090461802946370fc64d17946",
+    "reproduce/metric_demo/_curv.py": "f8c73c9cff97d10a35c8d8b3613bb84ecbe8b618644d19e672666023d83d6806",
+    "reproduce/metric_demo/_geom.py": "5c22dc6dbf4a89e9bb889677d28ff7bca61d1c277255c445cd5ec49fd7cd9d8a",
+    "reproduce/metric_demo/_nets.py": "79a826591108f80f536b6383a54fbf1d71a4961e3302e714f33425f2b8760a4c",
+    "reproduce/metric_demo/api.py": "8367213375958647b1987eee1f218aef3229f9c7bfd0cc72554ba9cf162f8799",
+    "reproduce/metric_demo/models.py": "834982bfef25cc24a35df4836687a92e45ba1d8e5040baa1cbc0c930afd12d63",
+    "reproduce/metric_demo/numpy_curvature.py": "ef6d6ea9ca26a3ef6ddcd8d7b521bdb68ba0269907e4b6e2e9d50fc568bdf2ae",
+    "reproduce/provenance.json": "08329e54a9f2944aed194d55269ec561363d42e4f08443b5d5705ea6df13832c",
+    "reproduce/requirements-dev.txt": "1438527233ce7beb1cdf4a046b8b5d38f140bd77217ef4df17d5592989d3ec15",
+    "reproduce/requirements-lock.txt": "0983285713929a6604061e3ff61b5e6a16ba1fdeb62621139472eb71fd30a595",
+    "reproduce/requirements.txt": "238d790ce3fbfe2ffe7cf3f493f4a872b75610bfa5ade29f50afdf1cd92eeb65",
+    "reproduce/tests/test_companion.py": "1793bdab06f62641ba20824f037b5fbac2f6fb624a8e2f011a59e3e8a6c251eb",
+    "reproduce/weights/compatible.json": "704072ced6d7f379ab6b37579dc53a9e515fcc53bbe4d62d610044846e45aada",
+    "reproduce/weights/compatible.npz": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+    "reproduce/weights/local.json": "8c0841a4c2b702be91160a7d9e08a3767ebc378823cb9e30408925744724582f",
+    "reproduce/weights/local.npz": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176",
+    "tools/build_audit_supplement.py": "f2fcb93b415cba044547c0523e3f1ba03ebb70ff251edec44402d3127d14d886",
+    "tools/check_frontend.mjs": "1fa19cb24187042ce2cc3b26a6ed2eb1b4a893816f1c4b252f9fb11dd1735803",
+    "tools/check_geometry.py": "795bec3fb12543c41901c8338f687c27dcc0ab6086311b0cda0a950097b2237d",
+    "tools/check_site.py": "74359f6bb31e3d0a9eacdacf82bfe0d705f9012bb9cbf4cfcf4bde6005283344",
+    "tools/export_evidence.py": "1ed309204ea08dc53ba90870386986726ab625e8953be8531a7066e4ff5d86d6",
+    "tools/prepare_site.py": "2125f26a38425c02116c2b6c277e08b42d52b6e3418ac8d5397432cac5049f78",
+    "tools/regenerate_figures.py": "36f0fb53266d45c5836bfff733bff1ff53ced46352f8e49e0a34f4ae8c344617",
+    "tools/update_audit_display.py": "b22d4cf86490c4d3e56c0413ec5c1cafd2ff6ac94ffc8720608a61daf833f95a",
+    ".github/workflows/pages.yml": "4f657ac99b9a6ad4c0bbecf56ed7c16e2549ae86b0d193c2936c15b88f918617",
+    ".gitignore": "69e61f486d89636b125fe2cba415030d5e7a122060174014d969beeb531d26f6"
+  },
+  "hash_scope": "Scientific and website files are hashed. Verification receipts are scanned but excluded from hashes to avoid self-reference and permit subsequent browser-check refresh.",
+  "limits": [
+    "The scan checks known identifying patterns and binary metadata; it does not guarantee that every possible identifying detail is absent.",
+    "Private baselines, raw scan output and internal assessment notes are excluded from publication."
+  ]
+}

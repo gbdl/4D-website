@@ -1,0 +1,135 @@
+{
+  "checkpoint": "R4-087",
+  "state": "joint-best",
+  "step": 26838,
+  "checkpoint_sha256": "be63d741ed07a9fd3bc7fa7e00aa9a4e0f49253da11db084fcd8c6ed9deba9bb",
+  "export_sha256": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+  "representation": {
+    "backend": "periodic_quotient",
+    "body": {
+      "activation": "silu",
+      "chart": "m4-filled-torus-untwisted-v1",
+      "completion": [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "depth": 4,
+      "fourier_frequencies": [
+        1
+      ],
+      "input_contract": "scaled-xi;optional-height;sin-cos-2pi-integer-eta",
+      "input_count": 7,
+      "model_kind": "black_hole_relative",
+      "periodic_height": true,
+      "periods": [
+        2.0,
+        4.0,
+        4.0
+      ],
+      "slope": [
+        5,
+        1,
+        1
+      ],
+      "width": 128
+    },
+    "cusp_transition": [
+      1.0,
+      2.0
+    ],
+    "deformation": "native-C-once",
+    "native": {
+      "activation": "tanh",
+      "depth": 2,
+      "gate_power": 3,
+      "input_count": 7,
+      "output_count": 10,
+      "width": 32
+    },
+    "physical_normalization": 1,
+    "projector_epsilon": 0.2,
+    "version": "m4-colored-sphere-native-cusp-quotient-v1"
+  },
+  "physical_normalization": 1,
+  "parameter_shapes": {
+    "body/layers[0]/b": [
+      128
+    ],
+    "body/layers[0]/w": [
+      7,
+      128
+    ],
+    "body/layers[1]/b": [
+      128
+    ],
+    "body/layers[1]/w": [
+      128,
+      128
+    ],
+    "body/layers[2]/b": [
+      128
+    ],
+    "body/layers[2]/w": [
+      128,
+      128
+    ],
+    "body/layers[3]/b": [
+      128
+    ],
+    "body/layers[3]/w": [
+      128,
+      128
+    ],
+    "body/layers[4]/b": [
+      10
+    ],
+    "body/layers[4]/w": [
+      128,
+      10
+    ],
+    "cusps": [
+      4,
+      6
+    ],
+    "native[0]/b": [
+      4,
+      32
+    ],
+    "native[0]/w": [
+      4,
+      7,
+      32
+    ],
+    "native[1]/b": [
+      4,
+      32
+    ],
+    "native[1]/w": [
+      4,
+      32,
+      32
+    ],
+    "native[2]/b": [
+      4,
+      10
+    ],
+    "native[2]/w": [
+      4,
+      32,
+      10
+    ]
+  }
+}

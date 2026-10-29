@@ -1,0 +1,34 @@
+{
+  "artifacts_sha256": {
+    "assets/figures/core-area-mobile.svg": "f2ee5a3e62d6650f6b2c0a0127f8ed41e0b3c1c8d85abe5caac9a52898373228",
+    "assets/figures/core-area.svg": "30fc25756213b6793341d80a0c19fe8dd1772fb1dacf136a92e53b38030c13d3",
+    "data/audit-supplement.json": "828b74f17726a99ec49c4ed9f3bd9f1dc4feaacf75c3b295cf84ac3ad52d5054",
+    "data/tables/audit-supplement.csv": "134959cec1a4e2feb11ff0ea3ff55ba0f06911826def5907bd3018e525ef339d",
+    "data/tables/audit-supplement.html": "0982f77967caa1f5869ef2da2f6c56008f28884831e7e20f4aa7cfcab4e37860"
+  },
+  "checks": [
+    {
+      "RMS_of_mean_integrals_minus_reported_replica_mean": 3.6869453882070954e-10,
+      "checkpoint_identity": "pass",
+      "core_area_reduction": "pass",
+      "cusp_site_reduction": "pass",
+      "integral_normalization": "pass",
+      "role": "raw022"
+    },
+    {
+      "RMS_of_mean_integrals_minus_reported_replica_mean": 5.81559554541089e-08,
+      "checkpoint_identity": "pass",
+      "core_area_reduction": "pass",
+      "cusp_site_reduction": "pass",
+      "integral_normalization": "pass",
+      "role": "quotient087"
+    }
+  ],
+  "schema": 1,
+  "scientific_snapshot": "2026-10-23",
+  "scope": "Saved scalar/array reductions and provenance checks only; no learned metric evaluation or new integration.",
+  "source_hash_validation": "Bundled source identities checked against frozen expected hashes; original files not read.",
+  "source_records": 11,
+  "status": "passed",
+  "table_rows": 14
+}

@@ -1,0 +1,234 @@
+{
+  "scope": "Two frozen selected states, not a general metric or training library.",
+  "source_snapshot": "3bfe548",
+  "kernels": {
+    "models.py": {
+      "source_sha256": "9fde6da1cfc396d777d2bbf71f648d6421708a208b7d88c55108c414d7aa0ebe",
+      "bundled_sha256": "834982bfef25cc24a35df4836687a92e45ba1d8e5040baa1cbc0c930afd12d63"
+    },
+    "_geom.py": {
+      "source_sha256": "3f4c0d475b7fa23bc700192757ad9e21d85c135705585c6531c1cd422a5e2fef",
+      "bundled_sha256": "5c22dc6dbf4a89e9bb889677d28ff7bca61d1c277255c445cd5ec49fd7cd9d8a"
+    },
+    "_nets.py": {
+      "source_sha256": "b2dcfab3d8790f80b65546ae9965f2f9f14241d410ea1b47eb63ebd2cae32199",
+      "bundled_sha256": "79a826591108f80f536b6383a54fbf1d71a4961e3302e714f33425f2b8760a4c"
+    },
+    "_curv.py": {
+      "source_sha256": "d12a15b842fffe73e759a32a788e2b6ce4a90505893de96bfe280fc152dcad2d",
+      "bundled_sha256": "f8c73c9cff97d10a35c8d8b3613bb84ecbe8b618644d19e672666023d83d6806"
+    }
+  },
+  "states": {
+    "local": {
+      "checkpoint": "R4-022",
+      "state": "joint-best",
+      "step": 402034,
+      "checkpoint_sha256": "acd17067d2e4fc9b6f9bdb5414b742a395e9c4a7f7b6aa4f3f134e0ef89ac152",
+      "export_sha256": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176",
+      "representation": {
+        "activation": "silu",
+        "backend": "round3",
+        "chebyshev_degree": 16,
+        "depth": 4,
+        "feature_mode": "both",
+        "features": "cartesian",
+        "fourier_frequencies": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "model_kind": "black_hole_relative",
+        "width": 128
+      },
+      "physical_normalization": 1,
+      "parameter_shapes": {
+        "cusps": [
+          4,
+          6
+        ],
+        "layers[0]/b": [
+          128
+        ],
+        "layers[0]/w": [
+          29,
+          128
+        ],
+        "layers[1]/b": [
+          128
+        ],
+        "layers[1]/w": [
+          128,
+          128
+        ],
+        "layers[2]/b": [
+          128
+        ],
+        "layers[2]/w": [
+          128,
+          128
+        ],
+        "layers[3]/b": [
+          128
+        ],
+        "layers[3]/w": [
+          128,
+          128
+        ],
+        "layers[4]/b": [
+          10
+        ],
+        "layers[4]/w": [
+          128,
+          10
+        ]
+      },
+      "parameter_leaves_verified": 11,
+      "exact_parameter_equality": true
+    },
+    "compatible": {
+      "checkpoint": "R4-087",
+      "state": "joint-best",
+      "step": 26838,
+      "checkpoint_sha256": "be63d741ed07a9fd3bc7fa7e00aa9a4e0f49253da11db084fcd8c6ed9deba9bb",
+      "export_sha256": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+      "representation": {
+        "backend": "periodic_quotient",
+        "body": {
+          "activation": "silu",
+          "chart": "m4-filled-torus-untwisted-v1",
+          "completion": [
+            [
+              5,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "depth": 4,
+          "fourier_frequencies": [
+            1
+          ],
+          "input_contract": "scaled-xi;optional-height;sin-cos-2pi-integer-eta",
+          "input_count": 7,
+          "model_kind": "black_hole_relative",
+          "periodic_height": true,
+          "periods": [
+            2.0,
+            4.0,
+            4.0
+          ],
+          "slope": [
+            5,
+            1,
+            1
+          ],
+          "width": 128
+        },
+        "cusp_transition": [
+          1.0,
+          2.0
+        ],
+        "deformation": "native-C-once",
+        "native": {
+          "activation": "tanh",
+          "depth": 2,
+          "gate_power": 3,
+          "input_count": 7,
+          "output_count": 10,
+          "width": 32
+        },
+        "physical_normalization": 1,
+        "projector_epsilon": 0.2,
+        "version": "m4-colored-sphere-native-cusp-quotient-v1"
+      },
+      "physical_normalization": 1,
+      "parameter_shapes": {
+        "body/layers[0]/b": [
+          128
+        ],
+        "body/layers[0]/w": [
+          7,
+          128
+        ],
+        "body/layers[1]/b": [
+          128
+        ],
+        "body/layers[1]/w": [
+          128,
+          128
+        ],
+        "body/layers[2]/b": [
+          128
+        ],
+        "body/layers[2]/w": [
+          128,
+          128
+        ],
+        "body/layers[3]/b": [
+          128
+        ],
+        "body/layers[3]/w": [
+          128,
+          128
+        ],
+        "body/layers[4]/b": [
+          10
+        ],
+        "body/layers[4]/w": [
+          128,
+          10
+        ],
+        "cusps": [
+          4,
+          6
+        ],
+        "native[0]/b": [
+          4,
+          32
+        ],
+        "native[0]/w": [
+          4,
+          7,
+          32
+        ],
+        "native[1]/b": [
+          4,
+          32
+        ],
+        "native[1]/w": [
+          4,
+          32,
+          32
+        ],
+        "native[2]/b": [
+          4,
+          10
+        ],
+        "native[2]/w": [
+          4,
+          32,
+          10
+        ]
+      },
+      "parameter_leaves_verified": 17,
+      "exact_parameter_equality": true
+    }
+  },
+  "adaptations": [
+    "Frozen two-state loader with numeric-only exports, exact hashes and explicit metadata",
+    "Raw folding disabled to preserve the actual raw-coordinate field",
+    "External geometry-order dependency replaced by the verified local canonical rule",
+    "Public API validates displayed chart domains and exposes invalid geometry",
+    "Independent NumPy curvature contractions and frozen original-code fixtures added"
+  ]
+}

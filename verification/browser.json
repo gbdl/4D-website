@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-25",
+  "edition": "audit revision",
+  "status": "passed_with_download_save_event_limit",
+  "scope": "Local static website; saved evidence only.",
+  "browser": "In-app Chromium",
+  "viewports_requested": [
+    {
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    "Plain section headings, updated audit text, model-role disclosure and integral table rendered.",
+    "Desktop and mobile layouts inspected; no document horizontal overflow.",
+    "All six matched-map sections and shared range control exercised; arrow keys update the inspected point.",
+    "257/513 radial resolution toggle and 129-point cusp profile selection exercised.",
+    "Terminal/selected experiment switches and a paired ridge comparison exercised.",
+    "Face bending RMS selection and 96-row table exercised.",
+    "Geometry slider endpoints exercised with Home/End.",
+    "Audit disclosure opened with keyboard Enter; updated integral values visible.",
+    "Relative-subpath fallback copy loaded seven static figures and the core-area figure with interactive canvases hidden.",
+    "No warning/error console records in the final page.",
+    "Temporary viewport override reset; final preview width 1280."
+  ],
+  "fallback_method": "Temporary script-free copy with noscript contents made visible; browser-wide JavaScript setting unchanged.",
+  "download_check": {
+    "http_bytes_match_local_hashes": [
+      {
+        "artifact": "data/audit-supplement.json",
+        "status": 200,
+        "bytes": 37162,
+        "sha256": "828b74f17726a99ec49c4ed9f3bd9f1dc4feaacf75c3b295cf84ac3ad52d5054",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "data/tables/audit-supplement.csv",
+        "status": 200,
+        "bytes": 4700,
+        "sha256": "134959cec1a4e2feb11ff0ea3ff55ba0f06911826def5907bd3018e525ef339d",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "assets/figures/core-area.svg",
+        "status": 200,
+        "bytes": 2513,
+        "sha256": "30fc25756213b6793341d80a0c19fe8dd1772fb1dacf136a92e53b38030c13d3",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "assets/downloads/two-constructions.pdf",
+        "status": 200,
+        "bytes": 638700,
+        "sha256": "b67e79f369ef4cad4149565aa554c13993caa4e657e71fda4f3a9e5ba98f18ec",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "data/metrics.json",
+        "status": 200,
+        "bytes": 2127882,
+        "sha256": "589e6823f43f0f34dd3536cc52f2ead4864b68e84e6fe8f39c24dd68fe67feb4",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "data/experiments.json",
+        "status": 200,
+        "bytes": 3684320,
+        "sha256": "0eced1123a9b3471885781860a3a91deca5203740b45ebf41a4fc3b4417bcdd5",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "data/audit.json",
+        "status": 200,
+        "bytes": 30500,
+        "sha256": "b6b1bccb6d92ccd46ed8e12068659487649f0489e77db0671cf44d1e0cc62d5d",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "public-note/main.tex",
+        "status": 200,
+        "bytes": 5824,
+        "sha256": "f19bd2f99557f4ab942ccfb62b6a16d45e94e5191a7f33fc7436e150be457b6d",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "reproduce/weights/local.npz",
+        "status": 200,
+        "bytes": 440324,
+        "sha256": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176",
+        "matches_local_file": true
+      },
+      {
+        "artifact": "reproduce/weights/compatible.npz",
+        "status": 200,
+        "bytes": 471964,
+        "sha256": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+        "matches_local_file": true
+      }
+    ],
+    "browser_save_event": "HTTP transfers and file hashes verified. The earlier native browser save event was inconclusive; no claim of completed save-dialog interaction."
+  },
+  "render_control": {
+    "command": "node tools/check_frontend.mjs",
+    "scope": "Synthetic rendering test, no scientific arrays changed.",
+    "distinct_states": [
+      "outside",
+      "invalid",
+      "valid zero",
+      "above range"
+    ],
+    "invalid_cross": true,
+    "saturation_hatch": true
+  },
+  "reviewed_sha256": {
+    "index.html": "a45b1ec701fd8dbedccb60954fcf183aa85f6aa3e653c9178699cd7b5b6530d8",
+    "assets/app.js": "94b9bc45a463556a23ebc04dee9316450f9d82e6597243e494e1b68eb595bc99",
+    "assets/style.css": "ec7722a1626c0261a4be0c8cd98303797381b0aee577ae88bf16deae03de1cbe",
+    "assets/figures/core-area.svg": "30fc25756213b6793341d80a0c19fe8dd1772fb1dacf136a92e53b38030c13d3",
+    "assets/figures/core-area-mobile.svg": "f2ee5a3e62d6650f6b2c0a0127f8ed41e0b3c1c8d85abe5caac9a52898373228",
+    "tools/prepare_site.py": "2125f26a38425c02116c2b6c277e08b42d52b6e3418ac8d5397432cac5049f78"
+  },
+  "deployment": "Local preview only."
+}

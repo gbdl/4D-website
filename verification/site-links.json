@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "html_files": 6,
+  "links_checked": 80,
+  "failures": [],
+  "index_sha256": "d54b016b8e40dd09196123e0a75413cebe6d50506036df4f0216603fc2546c9e",
+  "scope": "Local links and JSON parse checks; visual and scientific reviews are separate."
+}

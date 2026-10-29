@@ -1,0 +1,30 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 G. Bruno De Luca, for material controlled by the author.
+
+Except where an individual file or THIRD_PARTY_NOTICES.md states otherwise,
+the scientific prose, figures, numerical data, parameter exports, reference
+fixtures and mathematical-note content in this repository are licensed under
+the Creative Commons Attribution 4.0 International License.
+
+Canonical legal code (the governing license):
+https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Human-readable summary:
+https://creativecommons.org/licenses/by/4.0/
+
+Under that license you may share and adapt the material, including for
+commercial purposes, provided you give appropriate credit, link to the license,
+and indicate whether changes were made. You must not imply that the author
+endorses your use. Do not apply legal terms or technological measures that
+restrict the permissions granted by the license. The legal code above specifies
+the complete terms, including limitations and disclaimers.
+
+Suggested credit:
+G. Bruno De Luca, "A first experiment with AI agents in numerical geometry,"
+work-in-progress notebook, scientific snapshot 23 October 2026, CC BY 4.0.
+
+Code and functional website markup/styles are covered separately by
+GPL-3.0-or-later in LICENSE. This content license does not relicense referenced
+papers, installed software dependencies, or other third-party material. See
+THIRD_PARTY_NOTICES.md.

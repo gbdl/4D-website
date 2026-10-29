@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-27",
+  "status": "passed_with_commit_email_notice",
+  "scope": "Current files eligible for a normal Git commit, for GitHub Pages publication directly from the root of main; local pre-publication review only.",
+  "repository": {
+    "local_commit_count": 0,
+    "remote_branch_count": 0,
+    "commit_push_or_deployment_performed": false,
+    "git_index_unchanged": true
+  },
+  "privacy": {
+    "files_scanned": 83,
+    "text_files_scanned": 70,
+    "patterns_checked": [
+      "private_key",
+      "provider_token",
+      "credential_assignment",
+      "credential_url",
+      "absolute_user_path",
+      "email",
+      "private_url"
+    ],
+    "findings_in_publishable_files": [],
+    "png_metadata": [
+      {
+        "file": "assets/figures/cusp-profiles.png",
+        "metadata_keys": [
+          "Software",
+          "dpi"
+        ],
+        "exif_entries": 0
+      },
+      {
+        "file": "assets/figures/experiment-panels.png",
+        "metadata_keys": [
+          "Software",
+          "dpi"
+        ],
+        "exif_entries": 0
+      },
+      {
+        "file": "assets/figures/face-and-core-compatibility.png",
+        "metadata_keys": [
+          "Software",
+          "dpi"
+        ],
+        "exif_entries": 0
+      },
+      {
+        "file": "assets/figures/geometry-charts.png",
+        "metadata_keys": [
+          "Software",
+          "dpi"
+        ],
+        "exif_entries": 0
+      },
+      {
+        "file": "assets/figures/matched-profiles.png",
+        "metadata_keys": [
+          "Software",
+          "dpi"
+        ],
+        "exif_entries": 0
+      },
+      {
+        "file": "assets/figures/matched-sections.png",
+        "metadata_keys": [
+          "Software",
+          "dpi"
+        ],
+        "exif_entries": 0
+      },
+      {
+        "file": "assets/figures/paired-comparisons.png",
+        "metadata_keys": [
+          "Software",
+          "dpi"
+        ],
+        "exif_entries": 0
+      }
+    ],
+    "numeric_archives": [
+      {
+        "file": "reproduce/fixtures/compatible-interfaces.npz",
+        "arrays": 42,
+        "dtypes": [
+          "float64"
+        ],
+        "archive_or_member_comments": false,
+        "pickle_or_text_arrays": false
+      },
+      {
+        "file": "reproduce/fixtures/compatible-reference.npz",
+        "arrays": 60,
+        "dtypes": [
+          "float64"
+        ],
+        "archive_or_member_comments": false,
+        "pickle_or_text_arrays": false
+      },
+      {
+        "file": "reproduce/fixtures/local-interfaces.npz",
+        "arrays": 42,
+        "dtypes": [
+          "float64"
+        ],
+        "archive_or_member_comments": false,
+        "pickle_or_text_arrays": false
+      },
+      {
+        "file": "reproduce/fixtures/local-reference.npz",
+        "arrays": 60,
+        "dtypes": [
+          "float64"
+        ],
+        "archive_or_member_comments": false,
+        "pickle_or_text_arrays": false
+      },
+      {
+        "file": "reproduce/weights/compatible.npz",
+        "arrays": 17,
+        "dtypes": [
+          "float64"
+        ],
+        "archive_or_member_comments": false,
+        "pickle_or_text_arrays": false
+      },
+      {
+        "file": "reproduce/weights/local.npz",
+        "arrays": 11,
+        "dtypes": [
+          "float64"
+        ],
+        "archive_or_member_comments": false,
+        "pickle_or_text_arrays": false
+      }
+    ],
+    "git_commit_email": "Configured with a non-noreply address. Use the GitHub-provided private commit address before committing if the address should not become public. The configured address is not reproduced in this report.",
+    "intentional_public_content": [
+      "Author and collaborator names and author affiliation",
+      "Research results, run identifiers, provenance hashes, numerical fixtures and frozen metric weights",
+      "Descriptions of agent use and model names"
+    ]
+  },
+  "repairs": [
+    "Added .gitignore to exclude macOS metadata, bytecode, local environments, credentials and private assessment files from normal Git staging.",
+    "Removed the custom deployment workflow and staging script at the user's request; added an empty root .nojekyll for direct branch publication.",
+    "Updated publication instructions to Deploy from a branch, main, /(root).",
+    "Identified historical verification receipts and withdrawn PDF references.",
+    "Refreshed site-links.json for the current page."
+  ],
+  "validation": {
+    "site_links": {
+      "status": "passed",
+      "html_files": 6,
+      "links_checked": 80,
+      "failures": [],
+      "index_sha256": "d54b016b8e40dd09196123e0a75413cebe6d50506036df4f0216603fc2546c9e",
+      "scope": "Local links and JSON parse checks; visual and scientific reviews are separate."
+    },
+    "javascript_syntax": "passed",
+    "python_syntax": "All 16 Python source files parsed successfully.",
+    "rendering_control": "node tools/check_frontend.mjs passed.",
+    "saved_evidence": "tools/export_evidence.py passed in an isolated copy: two states, 79 experiments, 63 paired comparisons, 192 face rows and 704 core rows. All regenerated files matched the initial copies byte for byte.",
+    "analytic_geometry": "tools/check_geometry.py passed: 4221 domain points, 256 cusp maps and 128 regular black-hole tensors.",
+    "markdown_links": "All relative Markdown file links resolve.",
+    "browser": {
+      "status": "passed",
+      "browser": "153.0.8010.12",
+      "checks": [
+        "Desktop page loads all saved data at the /4D-website/ subpath.",
+        "All six map sections, shared scales, and keyboard point inspection work.",
+        "Radial and cusp profiles and both radial resolutions work.",
+        "Both checkpoint policies, representative runs, all paired comparisons, and face controls work.",
+        "Geometry slider supports keyboard endpoints.",
+        "Shared view state reloads from the URL fragment.",
+        "No document horizontal overflow at 1280, 768, 390, or 320 pixels.",
+        "JavaScript-disabled mobile view shows all eight static fallback images and hides interactive maps."
+      ],
+      "console_errors_or_warnings": [],
+      "failed_requests": [],
+      "external_requests": []
+    },
+    "http_artifacts": "Earlier local staging check: all 83 files returned HTTP 200 with matching SHA-256 hashes. This was before the switch to branch publication and is retained as historical verification.",
+    "scientific_files_unchanged": 53,
+    "branch_publication": {
+      "source": "main, /(root)",
+      "nojekyll": "Present and empty.",
+      "custom_workflow": "Removed.",
+      "site_links": "Rerun successfully after deployment simplification: 80 links in 6 HTML files.",
+      "rendering_control": "Rerun successfully after deployment simplification.",
+      "markdown_links": "All relative Markdown file links resolve.",
+      "git_exclusions": "Confirmed excluded metadata, cache and local preview files are absent from the prospective commit.",
+      "symlinks": "None among prospective commit files.",
+      "browser_results": "Earlier browser checks remain applicable to the unchanged index.html, assets/app.js and assets/style.css; no additional browser run was needed."
+    }
+  },
+  "limits": [
+    "Privacy checks combine pattern scanning and file/metadata inspection; they do not decide whether intentionally included research information should be public.",
+    "The learned-metric evaluator and its JAX-dependent tests were not rerun; the required Python 3.12/JAX environment is not installed.",
+    "GitHub Pages settings have not been changed or verified, and no deployment has been performed.",
+    "Branch publication has no separate staging filter and does not run the local custom checks automatically.",
+    "Historical browser.json and privacy.json remain snapshots of the earlier publication set and refer to removed deployment files.",
+    "File hashes below exclude this report itself."
+  ],
+  "file_sha256": {
+    ".gitignore": "c49fc65d21f3d4aef28c5813bcbca86944f21ba48a413da8b17abefd70cd32e2",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "CITATION.cff": "ae22cb3fee43ce26c980db855397191a1b5424d894a6291bb3a13fbaa02ec5d0",
+    "DEPLOYMENT.md": "9e6597767ab810d18d983e5ad3b83a7b04efa639e755845a47983895b3abe73d",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "LICENSE-CONTENT": "b77d8f6f7c7ed0a8a7bf60834b21e2df37b7c669fd7ea3526653bfdfa17c1e7e",
+    "README.md": "fa971838a18237e445349cab0b4b473d61023aa411a91cc9b92dac757a5fade2",
+    "THIRD_PARTY_NOTICES.md": "4f9a937716d2bbfab8474e51d237e25dd76539a5d86f144ac65ad4ab37c620e6",
+    "assets/app.js": "678efd12f4e0a8dcaa56494e9b3c62750ec099ad0eb242f780bf69d646ea28cb",
+    "assets/favicon.svg": "b3ebc411493944a831b08e1023061819792f0b83165fe73829157840e8db0214",
+    "assets/figures/core-area-mobile.svg": "f2ee5a3e62d6650f6b2c0a0127f8ed41e0b3c1c8d85abe5caac9a52898373228",
+    "assets/figures/core-area.svg": "30fc25756213b6793341d80a0c19fe8dd1772fb1dacf136a92e53b38030c13d3",
+    "assets/figures/cusp-profiles.png": "6393cc22fe012676844985196b8c632265f8264ca5a3edfa5f6964afbc40a9b9",
+    "assets/figures/experiment-panels.png": "c79201d1f8db9160ba8142ef90ebc05d62d046b256b0f4a1201722f6da24a8d0",
+    "assets/figures/face-and-core-compatibility.png": "5235decd4021a3dc23771ee3110e48e1077dbc6c6c93e5e8d972a4160fd77a57",
+    "assets/figures/geometry-charts.png": "e9340a013cdc42df5ae26fda9d98052c33033e0795f9c99d20a345b03758ab3c",
+    "assets/figures/matched-profiles.png": "87587682d5afcc5e46ef00a0c9b3c99df7ca4a03e84d8d2d48eb3a93450bef45",
+    "assets/figures/matched-sections.png": "78e818bd9c2ff7d3a81e96e920c0053f6d88466cc442114aa911439a85ba77a1",
+    "assets/figures/paired-comparisons.png": "accbf1e9d2f700b56a99f957b016385ee7a3e4950814bcece75d49aaaba746cb",
+    "assets/style.css": "3194e0cd26d6ca7a1f96d89b42f997fee6b93547fced04df785b93cc5e1fab9e",
+    "data/README.md": "51f27947705b4280b244f96f8e6dcaa010ccd070785abc48ec8c5c6bc7ff1181",
+    "data/audit-supplement.json": "828b74f17726a99ec49c4ed9f3bd9f1dc4feaacf75c3b295cf84ac3ad52d5054",
+    "data/audit.json": "b6b1bccb6d92ccd46ed8e12068659487649f0489e77db0671cf44d1e0cc62d5d",
+    "data/experiments.json": "0eced1123a9b3471885781860a3a91deca5203740b45ebf41a4fc3b4417bcdd5",
+    "data/metrics.json": "589e6823f43f0f34dd3536cc52f2ead4864b68e84e6fe8f39c24dd68fe67feb4",
+    "data/tables/audit-supplement.csv": "134959cec1a4e2feb11ff0ea3ff55ba0f06911826def5907bd3018e525ef339d",
+    "data/tables/audit-supplement.html": "0982f77967caa1f5869ef2da2f6c56008f28884831e7e20f4aa7cfcab4e37860",
+    "data/tables/core-strata.csv": "a81344a2612b7815550dc80b715855f9db5907956b7f7477d3380bd06731caf3",
+    "data/tables/core-strata.html": "330ba0b48916b71092775f89d3eeaed416821581cccd230dab38e88f5abd0269",
+    "data/tables/experiments.csv": "6a2aca797692208b7ad154916c08b6b97336875033e467a38aaba3b9973938dc",
+    "data/tables/experiments.html": "23f2a82ee4dc5f9f9aa2b2321a8db930c954e0921f3b3ba21d76cf7570e6a78c",
+    "data/tables/faces.csv": "c51b62884ff3b54f9b62de7189d50f911bb27e39f5610e4f47edf52f17762ac1",
+    "data/tables/faces.html": "3d1246b7b21669d372feb78238887186d56267f4fc339ca08c1941eff6be75af",
+    "data/tables/maps.csv": "5f62194a6acb35fa56994b01ac9fa02ee6a541d5785cd74e6e1ef6eed6585a09",
+    "data/tables/paired-comparisons.csv": "3428b20713614e681d6a7b9b07daad4d63977d4e4310090c0249200786787b08",
+    "data/tables/paired-summary.csv": "72a78e3b0b664ba66281817c987e512386d5d7e3a8350a0b8199293d9d2d1da9",
+    "data/tables/paired-summary.html": "a2e79ba9390ac32458f4cf4ac5c271a28ba985379a732cd11cf0ec53aa4b7c6a",
+    "data/tables/profiles.csv": "1e626a2191b3941377c5f26eec829ec8130a6e04e2ba7b2c2ca49b1b4bfe896b",
+    "index.html": "d54b016b8e40dd09196123e0a75413cebe6d50506036df4f0216603fc2546c9e",
+    "reproduce/README.md": "513a70c407ce9c51feede6871dbf3d5fc1101f158b36e1b978692a41593f88b3",
+    "reproduce/check.py": "5903b24bc82bbcfb95bc2f3b8d4587171b0c0c3119351a3fa8c1096caf9e8233",
+    "reproduce/fixtures/compatible-interfaces.npz": "d30b8817e938af4ba816e32fafbe5e1a7fc34162f7126a718e24e10dcf9ac9ff",
+    "reproduce/fixtures/compatible-reference.npz": "a7b7e2bc738666790777e19e6de6b9a2ffde2e19cdda1a2e280c4bba15fe70c2",
+    "reproduce/fixtures/geometry.json": "e599716de5a4473eeceb4864e25d6007e7f6c915a9d3f6b62ac4bdbd613d8601",
+    "reproduce/fixtures/interfaces.json": "5d0ac77b7b63f2db650a78822db5773f6edfed4be3345813d9a76bbe241f5b34",
+    "reproduce/fixtures/local-interfaces.npz": "e36ea25dddfddc5eb049dab08e23b8483ae598c04c0335a09a5808cacdada201",
+    "reproduce/fixtures/local-reference.npz": "c953921d573d0a9d9a8dd57d8b3edbc9a52827144828315bcbb78853dce33a6e",
+    "reproduce/fixtures/manifest.json": "adb3c940548ea20d3f1e0c927450a7f92408ddf41eedbe795ad1806372566874",
+    "reproduce/metric_demo/__init__.py": "919b63ef90ef193ba6c6c1401a237399f5a7cd187d7d20c705ed05e023f522f8",
+    "reproduce/metric_demo/__main__.py": "f9f15e51de10273d4ae03843ed28b4d546d7824090461802946370fc64d17946",
+    "reproduce/metric_demo/_curv.py": "f8c73c9cff97d10a35c8d8b3613bb84ecbe8b618644d19e672666023d83d6806",
+    "reproduce/metric_demo/_geom.py": "5c22dc6dbf4a89e9bb889677d28ff7bca61d1c277255c445cd5ec49fd7cd9d8a",
+    "reproduce/metric_demo/_nets.py": "79a826591108f80f536b6383a54fbf1d71a4961e3302e714f33425f2b8760a4c",
+    "reproduce/metric_demo/api.py": "8367213375958647b1987eee1f218aef3229f9c7bfd0cc72554ba9cf162f8799",
+    "reproduce/metric_demo/models.py": "834982bfef25cc24a35df4836687a92e45ba1d8e5040baa1cbc0c930afd12d63",
+    "reproduce/metric_demo/numpy_curvature.py": "ef6d6ea9ca26a3ef6ddcd8d7b521bdb68ba0269907e4b6e2e9d50fc568bdf2ae",
+    "reproduce/provenance.json": "08329e54a9f2944aed194d55269ec561363d42e4f08443b5d5705ea6df13832c",
+    "reproduce/requirements-dev.txt": "1438527233ce7beb1cdf4a046b8b5d38f140bd77217ef4df17d5592989d3ec15",
+    "reproduce/requirements-lock.txt": "0983285713929a6604061e3ff61b5e6a16ba1fdeb62621139472eb71fd30a595",
+    "reproduce/requirements.txt": "238d790ce3fbfe2ffe7cf3f493f4a872b75610bfa5ade29f50afdf1cd92eeb65",
+    "reproduce/tests/test_companion.py": "1793bdab06f62641ba20824f037b5fbac2f6fb624a8e2f011a59e3e8a6c251eb",
+    "reproduce/weights/compatible.json": "704072ced6d7f379ab6b37579dc53a9e515fcc53bbe4d62d610044846e45aada",
+    "reproduce/weights/compatible.npz": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+    "reproduce/weights/local.json": "8c0841a4c2b702be91160a7d9e08a3767ebc378823cb9e30408925744724582f",
+    "reproduce/weights/local.npz": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176",
+    "tools/build_audit_supplement.py": "f2fcb93b415cba044547c0523e3f1ba03ebb70ff251edec44402d3127d14d886",
+    "tools/check_frontend.mjs": "1fa19cb24187042ce2cc3b26a6ed2eb1b4a893816f1c4b252f9fb11dd1735803",
+    "tools/check_geometry.py": "795bec3fb12543c41901c8338f687c27dcc0ab6086311b0cda0a950097b2237d",
+    "tools/check_site.py": "74359f6bb31e3d0a9eacdacf82bfe0d705f9012bb9cbf4cfcf4bde6005283344",
+    "tools/export_evidence.py": "1ed309204ea08dc53ba90870386986726ab625e8953be8531a7066e4ff5d86d6",
+    "tools/regenerate_figures.py": "36f0fb53266d45c5836bfff733bff1ff53ced46352f8e49e0a34f4ae8c344617",
+    "tools/update_audit_display.py": "b22d4cf86490c4d3e56c0413ec5c1cafd2ff6ac94ffc8720608a61daf833f95a",
+    "verification/README.md": "d1e13bd31cd85cdc8ee9a66b9b8564ac5decbf66efa37747427c5c6d58736d5f",
+    "verification/audit-supplement.json": "b033481073857b4fff4867b6b31d90c3f87e8faad1ff31321ffac2023b299d5a",
+    "verification/browser.json": "d48200f8b6030afaed43b46e6dd078f1c5c1d4d7e5d561eb0103f01b698789c9",
+    "verification/evaluator-fast.json": "ed2175838243e535d61f8b4756094c4dd03969b7e6633befe94460c2476e3294",
+    "verification/evaluator-standalone.json": "1c793e119f9fe5e3c82e737be81fef0f15cb31d53788bc98026059c69f51b18f",
+    "verification/evaluator.json": "7bcbf2a292a835fb18c48ff3189043069f663971efb1780b2d5cb10a3d87df25",
+    "verification/evidence.json": "ad99cee85c5f29d5de4ff8f780fd988da11683ec65a4c99d7ddb2c0ac01d05ab",
+    "verification/geometry.json": "d928c78705a01c093e16032251b2da31428e73539d6d2dc8c39ff93fa595c86b",
+    "verification/privacy.json": "9341d398d103a1cca20e432f57b09bee6571c9262e2d4d901565e67046f361de",
+    "verification/site-links.json": "7ab5ecf0fdf2944eec830445c61c3748ca32880fb83eb1e609e080b416c5206e",
+    "verification/source-arrays.json": "d81fdbf64b8de49519a09d53242e76de617bd8ff1e6c66f72534b0288ece81bf"
+  }
+}

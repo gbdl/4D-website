@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: >-
+  Cite the original paper for the underlying scientific study. When using this
+  notebook's figures, data or frozen-metric companion, also cite this dated
+  work-in-progress record and specify the scientific snapshot and selected state.
+type: software
+title: A first experiment with AI agents in numerical geometry
+version: 1.0.0
+url: https://gbdl.github.io/4D-website/
+repository-code: https://github.com/gbdl/4D-website
+authors:
+  - family-names: De Luca
+    given-names: G. Bruno
+    affiliation: LAPTh (CNRS and Université Savoie Mont Blanc), Annecy, France
+abstract: >-
+  An illustrated work-in-progress notebook about an initial attempt to use
+  research agents on a four-dimensional numerical geometry problem. It compares
+  the Local metric and Quotient metric, documents selected experiments and checks,
+  and preserves unresolved Einstein-accuracy and compatibility limitations.
+  The scientific evidence is frozen, with local accuracy and
+  geometric compatibility remaining the joint numerical goal.
+license:
+  - GPL-3.0-or-later
+  - CC-BY-4.0
+keywords:
+  - numerical geometry
+  - Einstein metrics
+  - neural metrics
+  - work in progress
+  - research agents
+preferred-citation:
+  type: article
+  authors:
+    - family-names: De Luca
+      given-names: G. Bruno
+  title: Machine Learning Gravity Compactifications on Negatively Curved Manifolds
+  journal: Journal of High Energy Physics
+  volume: "2025"
+  issue: "9"
+  start: 90
+  year: 2025
+  url: https://arxiv.org/abs/2501.00093
+  identifiers:
+    - type: other
+      value: arXiv:2501.00093

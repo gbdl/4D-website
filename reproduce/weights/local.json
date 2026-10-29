@@ -1,0 +1,64 @@
+{
+  "checkpoint": "R4-022",
+  "state": "joint-best",
+  "step": 402034,
+  "checkpoint_sha256": "acd17067d2e4fc9b6f9bdb5414b742a395e9c4a7f7b6aa4f3f134e0ef89ac152",
+  "export_sha256": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176",
+  "representation": {
+    "activation": "silu",
+    "backend": "round3",
+    "chebyshev_degree": 16,
+    "depth": 4,
+    "feature_mode": "both",
+    "features": "cartesian",
+    "fourier_frequencies": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "model_kind": "black_hole_relative",
+    "width": 128
+  },
+  "physical_normalization": 1,
+  "parameter_shapes": {
+    "cusps": [
+      4,
+      6
+    ],
+    "layers[0]/b": [
+      128
+    ],
+    "layers[0]/w": [
+      29,
+      128
+    ],
+    "layers[1]/b": [
+      128
+    ],
+    "layers[1]/w": [
+      128,
+      128
+    ],
+    "layers[2]/b": [
+      128
+    ],
+    "layers[2]/w": [
+      128,
+      128
+    ],
+    "layers[3]/b": [
+      128
+    ],
+    "layers[3]/w": [
+      128,
+      128
+    ],
+    "layers[4]/b": [
+      10
+    ],
+    "layers[4]/w": [
+      128,
+      10
+    ]
+  }
+}

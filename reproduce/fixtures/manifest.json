@@ -1,0 +1,210 @@
+{
+  "scope": "Small frozen reference subset; not a manifold-wide audit.",
+  "source": "Original training-code outputs frozen during the independent reconstruction audit",
+  "date": "2026-10-21",
+  "samples": [
+    {
+      "id": "body",
+      "chart": "core",
+      "point": [
+        1.2192334099180684,
+        2.4007471727298277,
+        2.5728067359416467,
+        0.489768338916357
+      ],
+      "site": null,
+      "source_set": "body_core",
+      "source_row": 0,
+      "tag": "body_copy28"
+    },
+    {
+      "id": "cap",
+      "chart": "core",
+      "point": [
+        1.1800789020882412,
+        0.5957059175637553,
+        1.4243405307762635,
+        -1.9831394564088816
+      ],
+      "site": null,
+      "source_set": "cap_core",
+      "source_row": 0,
+      "tag": "cap_copy14"
+    },
+    {
+      "id": "exact-core",
+      "chart": "core",
+      "point": [
+        0.0,
+        0.0,
+        1.664885578568507,
+        -0.11008035086611266
+      ],
+      "site": null,
+      "source_set": "core_exact",
+      "source_row": 0,
+      "tag": "core_exact"
+    },
+    {
+      "id": "reflection-support",
+      "chart": "core",
+      "point": [
+        2.7608479966780384,
+        0.7048323162692832,
+        -0.3953277885293266,
+        -0.752462444234583
+      ],
+      "site": null,
+      "source_set": "collar_core",
+      "source_row": 0,
+      "tag": "collar_3sph"
+    },
+    {
+      "id": "cusp0-transition",
+      "chart": "cusp",
+      "point": [
+        1.0545149769923134,
+        0.2424775045115144,
+        0.3103807380802208,
+        0.45299809258003093
+      ],
+      "site": 0,
+      "source_set": "cusp_trans",
+      "source_row": 0,
+      "tag": "trans_cusp0"
+    },
+    {
+      "id": "cusp0-deep",
+      "chart": "cusp",
+      "point": [
+        34.901218452293,
+        0.19688220048201255,
+        -0.3754979927024582,
+        0.3571780104392432
+      ],
+      "site": 0,
+      "source_set": "cusp_native",
+      "source_row": 18,
+      "tag": "native_cusp0"
+    },
+    {
+      "id": "cusp1-transition",
+      "chart": "cusp",
+      "point": [
+        1.492685446499773,
+        -0.19726954765943733,
+        0.49368510853830366,
+        -0.07710745791977747
+      ],
+      "site": 4,
+      "source_set": "cusp_trans",
+      "source_row": 384,
+      "tag": "trans_cusp1"
+    },
+    {
+      "id": "cusp1-deep",
+      "chart": "cusp",
+      "point": [
+        48.99485866719349,
+        0.4537028594886855,
+        0.19018322416934053,
+        -0.2599236805848682
+      ],
+      "site": 4,
+      "source_set": "cusp_native",
+      "source_row": 193,
+      "tag": "native_cusp1"
+    },
+    {
+      "id": "cusp2-transition",
+      "chart": "cusp",
+      "point": [
+        1.5356511155349724,
+        -0.4557194138270903,
+        -0.04620793252029559,
+        0.4839690090512085
+      ],
+      "site": 13,
+      "source_set": "cusp_trans",
+      "source_row": 1248,
+      "tag": "trans_cusp2"
+    },
+    {
+      "id": "cusp2-deep",
+      "chart": "cusp",
+      "point": [
+        37.15974434734343,
+        -0.4553385516294928,
+        0.07960148903753489,
+        0.22758474568391168
+      ],
+      "site": 13,
+      "source_set": "cusp_native",
+      "source_row": 645,
+      "tag": "native_cusp2"
+    },
+    {
+      "id": "cusp3-transition",
+      "chart": "cusp",
+      "point": [
+        1.88777835695717,
+        0.0700626511346078,
+        0.4409591286219756,
+        -0.29272572194601987
+      ],
+      "site": 25,
+      "source_set": "cusp_trans",
+      "source_row": 2401,
+      "tag": "trans_cusp3"
+    },
+    {
+      "id": "cusp3-deep",
+      "chart": "cusp",
+      "point": [
+        44.57332468360689,
+        0.248621007619453,
+        0.004837154629111828,
+        0.025004153133085127
+      ],
+      "site": 25,
+      "source_set": "cusp_native",
+      "source_row": 1200,
+      "tag": "native_cusp3"
+    }
+  ],
+  "source_files": {
+    "cmp/raw022__body_core.npz": "abd638a912aee11c98cd47fddc8beeade095dd86a69152b6993e3ed74f2d03b4",
+    "bb/raw022__body_core.npz": "5890aa587b14bda2555453e86f5ce244c1d2a00fd2b6151ac4ad8e93c7e1fa5a",
+    "points/body_core.npz": "435c80ce19648c4e82dbdfbd59605dabc14738ccc21dcdd4d7e0f9fe9b26e67f",
+    "cmp/quotient087__body_core.npz": "42de73a07a50334eeb9374b39c440be331b452c4c236eca8c62ca3b163607cdf",
+    "bb/quotient087__body_core.npz": "119ff552001ca136243c5a9dbf57446c3ef8ca0991994c43c5d2a57c150147f9",
+    "cmp/raw022__cap_core.npz": "669a5eda18b318896f6fa352facc963959ac6eab042d5dcaf2f02112e8cda386",
+    "bb/raw022__cap_core.npz": "1d37a1bbcfa382379d7b1039e78c83cf1fac5e3eb010208db863fb51ab3fb1bd",
+    "points/cap_core.npz": "0546276c236f0af0d6eba27a08e963bfde77f23a7221df85897e5c26efbaf462",
+    "cmp/quotient087__cap_core.npz": "85051b548c7a8c7a1a99cf4b1e679c6d36a3c158e0b7877bf1cbb0e951b94121",
+    "bb/quotient087__cap_core.npz": "a3a87f6a20f24883c168d5a4ab135887eb29cc65e731ea9c18f682021451629d",
+    "cmp/raw022__core_exact.npz": "54e13b012b65cffebbba89dd6d1f7e691a3582529c4738fefbe053cecf82581e",
+    "bb/raw022__core_exact.npz": "2e1e55073242e84722197f20838038c1c639c065a4436656dae3357ab3ab134e",
+    "points/core_exact.npz": "1aa2be7d346b58cd25365a515411fd4d3c0cdcd137702f959f1e055bc7c03f3d",
+    "cmp/quotient087__core_exact.npz": "8cd1f27d3044470efaaabfe1b7729908633cea722ee882075bb1690c80f98d61",
+    "bb/quotient087__core_exact.npz": "4479cdfc4face149cf7da41f4f4868232a5cf801115eac0dcb9c63899e625daa",
+    "cmp/raw022__collar_core.npz": "2cac9d5060ecd0331f49800590f523f369be0a68936bfdefdecb91697e759967",
+    "bb/raw022__collar_core.npz": "28a573dc6bc407ca70b663342573ae3a53c86c1ae24d926d0a105ac3eaeb8a9c",
+    "points/collar_core.npz": "3f3fab69f52c91bae53b1b357e18c4f3cbce9f6f166f405cb25ca867cc96be81",
+    "cmp/quotient087__collar_core.npz": "597f4bef96e80d613989f8a1dad6de126a22d56d3734a71ec1f0e1a155e1ab91",
+    "bb/quotient087__collar_core.npz": "3937e4c50ca7257f8a8a60d493610960869c9b986a7201e5c59118786b3c10ae",
+    "cmp/raw022__cusp_trans.npz": "9b25ef27445d2993145481bc6ad1645352951c0465533edcb5fd0d96184dfc42",
+    "bb/raw022__cusp_trans.npz": "3bfde026f7a6f7dc85c8d0895e422511a7eb58f58b84cce235531a5759ef2e4d",
+    "points/cusp_trans.npz": "e6d6150be4adbbae9f1eaf0b4c3e9fa4e006eb54a0a088f3ba7d85f0344bb370",
+    "cmp/quotient087__cusp_trans.npz": "245295400d517852836f8a1ce298e87fbeba36e1d670516879fdac41efae479a",
+    "bb/quotient087__cusp_trans.npz": "6a3d61c25c45e1c8cf5224ce46e4f4e7f79c4bebeab05dda47dc0fbb80992fe0",
+    "cmp/raw022__cusp_native.npz": "b96e0f8e839a530a1fc8b8f260802865a6cc3bdd27888d28ce3da6d8c9ace9dd",
+    "bb/raw022__cusp_native.npz": "f78dfaf12ea1b5d76a393fee4d7acc1fe9afa0e74ed2fd2e7b2d7918d021bff4",
+    "points/cusp_native.npz": "e6dcbf1eba95a38f8a9193fb7211f035d52244c503d37877d4489a76393415b3",
+    "cmp/quotient087__cusp_native.npz": "8480671287a9440ac4fbc66cfd74c89af136f9c8417c8c65db4720ea6d1f1a94",
+    "bb/quotient087__cusp_native.npz": "9a41c7093e3693f365dacd827c993ae7775c34f06d0a21058d2d57baaa1d82da"
+  },
+  "local_fixture_sha256": "c953921d573d0a9d9a8dd57d8b3edbc9a52827144828315bcbb78853dce33a6e",
+  "compatible_fixture_sha256": "a7b7e2bc738666790777e19e6de6b9a2ffde2e19cdda1a2e280c4bba15fe70c2",
+  "geometry_fixture_sha256": "e599716de5a4473eeceb4864e25d6007e7f6c915a9d3f6b62ac4bdbd613d8601"
+}

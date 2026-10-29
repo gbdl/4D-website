@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "command": "python3 tools/check_geometry.py",
+  "seed": 20261025,
+  "scope": "Algebraic geometry and analytic-model checks; no trained metric evaluation.",
+  "checks": {
+    "random_explicit_copy_union_comparisons": 4096,
+    "boundary_slice_copy_union_comparisons": 125,
+    "copy_membership_mismatches": 0,
+    "cusp_inversion_cases": 256,
+    "cusp_inversion_max_absolute_residual": 4.440892098500626e-16,
+    "hyperbolic_inversion_relative_pullback_residual": 7.771561172376096e-16,
+    "rj_endpoint_equation_absolute_residual": 0.0,
+    "regular_black_hole_compact_tensor_comparisons": 128,
+    "regular_black_hole_compact_tensor_max_absolute_residual": 1.1102230246251565e-15,
+    "adapted_black_hole_sectionals": [
+      {
+        "r": 1.0,
+        "two_planes": 0.0,
+        "four_planes": -1.5,
+        "scalar": -12.0
+      },
+      {
+        "r": 2.0,
+        "two_planes": -0.875,
+        "four_planes": -1.0625,
+        "scalar": -12.0
+      },
+      {
+        "r": 10.0,
+        "two_planes": -0.999,
+        "four_planes": -1.0005,
+        "scalar": -12.0
+      },
+      {
+        "r": 100.0,
+        "two_planes": -0.999999,
+        "four_planes": -1.0000005,
+        "scalar": -12.0
+      }
+    ],
+    "regional_loss_weight_sum": 1.0
+  },
+  "geometry_fixture_sha256": "e599716de5a4473eeceb4864e25d6007e7f6c915a9d3f6b62ac4bdbd613d8601",
+  "script_sha256": "795bec3fb12543c41901c8338f687c27dcc0ab6086311b0cda0a950097b2237d"
+}

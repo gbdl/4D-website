@@ -1,0 +1,997 @@
+{
+  "attribution": {
+    "recorded_model_roles": [
+      {
+        "execution_record": "The G2 summary records the Opus family for H1, H2, H5 and H9; it does not record a version per call.",
+        "plan_source": "audit_plan",
+        "recorded_model": "Opus 5.5",
+        "role": "Mathematical and verification work in the revised audit plan."
+      },
+      {
+        "execution_record": "The G2 summary records the Sonnet family for H3, H4, H6, H7 and H8; it does not record a version per call.",
+        "plan_source": "audit_plan",
+        "recorded_model": "Sonnet 5.5",
+        "role": "Engineering and finishing work in the revised audit plan."
+      },
+      {
+        "execution_record": "The G2 summary records the Fable family for its bounded review; it does not record a version per call.",
+        "plan_source": "audit_plan",
+        "recorded_model": "Fable 5.1",
+        "role": "Confined double-checks in the revised audit plan."
+      }
+    ],
+    "scope": "Recorded designations describe this first attempt; they are not a benchmark of the named systems, a full per-call inventory or evidence of a validated agent architecture.",
+    "summary": "Research decisions and direction: G. Bruno De Luca. Agents helped produce the research note and a separate audit; review of the audit changed interpretations on both sides.",
+    "systems": [
+      {
+        "evidence_scope": "The dated note-update commit records Codex as author; it does not establish every individual tool call or model version.",
+        "provider": "OpenAI",
+        "recorded_model": "Version not established by the retained records.",
+        "role": "Builder: implementation, experiments, analysis and research-note preparation.",
+        "source": "builder_commit",
+        "system": "Codex"
+      },
+      {
+        "evidence_scope": "Recorded assignments and a coordinator execution summary, not independently verified per-call model telemetry.",
+        "provider": "Anthropic",
+        "recorded_model": "The revised plan names Opus 5.5, Sonnet 5.5 and Fable 5.1 for different roles.",
+        "role": "Separate audit, with delegated calculations and critical reviews.",
+        "sources": [
+          "audit_plan",
+          "audit_gate"
+        ],
+        "system": "Claude Code"
+      }
+    ]
+  },
+  "caveats": [
+    "Observed data and numerical controls do not certify a smooth global Einstein filling.",
+    "Cusp-limit errors are distinct from maxima on saved finite-depth profiles.",
+    "The model-reference core area is not the true-answer area; no universal residual-to-distance estimate is inferred.",
+    "Euler-integral disagreement corroborates incompatibility only with correct topology, boundary/tail treatment, domain coverage, normalization and integration. Agreement cannot certify smoothness or Einstein accuracy.",
+    "Volume-weighted RMS from full-domain integration is distinct from worst-region comparison-panel RMS and the earlier truncated C3 volume estimates.",
+    "The integral sources omit input-file hashes. Their state binding is indirect through the named metric registry and separately hash-bound reconstruction records.",
+    "Audit stages named R5/R6 here date 22\u201323 October and are not later training campaigns. No post-snapshot scientific measurements are included."
+  ],
+  "core_area": {
+    "interpretation": "The two learned geometries differ substantially in core area. These measurements alone do not determine which is closer to an exact Einstein filling.",
+    "reference": {
+      "area": 0.35348642284405757,
+      "label": "Black-hole reference",
+      "scope": "An analytic model comparison, not the unknown exact filling or an imposed target.",
+      "source": "core_area",
+      "unit": "curvature-radius squared"
+    },
+    "states": {
+      "quotient087": {
+        "coordinate_area": 0.3266816902214681,
+        "relative_to_BH": -0.07582959596276917,
+        "source": "core_area",
+        "source_keys": [
+          "values",
+          "quotient087",
+          "area"
+        ],
+        "surface_check": {
+          "alternative_resolution_area": 0.3266649030180547,
+          "coordinate_area": 0.32668169019543825,
+          "optimized_area": 0.32666490301459633,
+          "relative_reduction": 5.138696580108952e-05,
+          "scope": "Bounded local surface search, not a proof of a global minimum. Raw-field incompatibility remains.",
+          "source": "core_surface"
+        },
+        "unit": "curvature-radius squared"
+      },
+      "raw022": {
+        "coordinate_area": 0.372652905222665,
+        "relative_to_BH": 0.05422126888042533,
+        "source": "core_area",
+        "source_keys": [
+          "values",
+          "raw022",
+          "area"
+        ],
+        "surface_check": {
+          "alternative_resolution_area": 0.37265284143755373,
+          "coordinate_area": 0.3726528556361611,
+          "optimized_area": 0.3726528556361611,
+          "relative_reduction": 0.0,
+          "scope": "Bounded local surface search, not a proof of a global minimum. Raw-field incompatibility remains.",
+          "source": "core_surface"
+        },
+        "unit": "curvature-radius squared"
+      }
+    }
+  },
+  "corrections": [
+    {
+      "earlier": "The description emphasized transition regions.",
+      "revised": "The note now describes broad background error, with additional transition peaks.",
+      "scope": "Paraphrase of the recorded response and revision; not a transcript.",
+      "side": "research note",
+      "source": "corrections",
+      "topic": "Where the quotient error occurs"
+    },
+    {
+      "earlier": "Core closure measurements carried too much of the interpretation.",
+      "revised": "Ordinary-ridge defects are reported separately and are larger than the filled-core defects.",
+      "scope": "Paraphrase of the recorded response and revision; not a transcript.",
+      "side": "research note",
+      "source": "corrections",
+      "topic": "Geometric closure"
+    },
+    {
+      "earlier": "A flat profile with a quoted 3.3% error was counted as a smoothing.",
+      "revised": "It was not C1 at its boundary; the figure was withdrawn as evidence for a completed repair.",
+      "scope": "Correction of an audit interpretation.",
+      "side": "audit",
+      "source": "corrections",
+      "topic": "A trial smoothing"
+    },
+    {
+      "earlier": "A polishing plateau was interpreted as an architectural limitation.",
+      "revised": "It is a limitation of the tested procedure at one checkpoint, not a demonstrated error floor of the model class.",
+      "scope": "Correction of an audit interpretation.",
+      "side": "audit",
+      "source": "corrections",
+      "topic": "A stalled optimization"
+    },
+    {
+      "earlier": "The response described the linear solve as still improving.",
+      "revised": "The recorded linear solve had converged to its stopping criterion; nonlinear runs were stopped early.",
+      "scope": "Correction to the response itself; this is not a claim that the resulting metric met the scientific target.",
+      "side": "authors response",
+      "source": "corrections",
+      "topic": "Linear versus nonlinear solver progress"
+    }
+  ],
+  "cusp_limits": {
+    "quotient087": {
+      "analytic_limit_E": {
+        "argmax_site": 0,
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "per_site": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "site_count": 37,
+        "unit": "dimensionless E"
+      },
+      "finite_reconstruction": {
+        "maximum_E_limit_estimate": 0.0,
+        "scope": "Limit estimated from t squared g at finite t; not a sampled Einstein-error maximum.",
+        "source": "cusp_finite",
+        "t": 1000000,
+        "unit": "dimensionless E"
+      },
+      "scope": "37 cusp sites. Analytic E_infinity = abs(1 - inverse(Q)[0,0]) for the constant limiting tensor Q. These are not additional samples on the finite-depth profile plots.",
+      "shape_spread_definition": "Frobenius differences of normalized cusp-limit shape matrices across images of the same cusp.",
+      "site_shape_spread_per_cusp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source": "cusp_analytic",
+      "source_keys": [
+        "values",
+        "quotient087"
+      ]
+    },
+    "raw022": {
+      "analytic_limit_E": {
+        "argmax_site": 4,
+        "maximum": 0.0004306840897633224,
+        "median": 0.00011991199397121122,
+        "minimum": 1.6107778415541674e-06,
+        "per_site": [
+          1.6107778415541674e-06,
+          4.5222470210215526e-05,
+          2.7607075835267558e-05,
+          0.00011991199397121122,
+          0.0004306840897633224,
+          6.021344189255373e-06,
+          3.603747297231674e-05,
+          1.2424979086933519e-05,
+          3.108761749670563e-05,
+          0.00011279297321942217,
+          3.2486255357677685e-05,
+          0.00014197190241338475,
+          4.976183913274479e-05,
+          0.00025784840573273016,
+          0.00022719135835747029,
+          5.735078018342943e-05,
+          0.00024539387380628774,
+          7.5042822541449e-05,
+          0.00010098649432888074,
+          2.4862737523445588e-05,
+          0.00018438104423401658,
+          0.0001552256812448194,
+          0.00013361528986766125,
+          0.00012435403428645575,
+          0.00015645982791179236,
+          0.0002777993673134249,
+          0.00024807218199862646,
+          0.0002482577386414553,
+          8.213937602630228e-05,
+          0.00011246704392509077,
+          6.115678288454163e-05,
+          3.4292223291987334e-05,
+          0.0001502065170595479,
+          0.0001456684502860739,
+          0.00015326059687226223,
+          0.00015610059545145827,
+          0.00016961856545005816
+        ],
+        "site_count": 37,
+        "unit": "dimensionless E"
+      },
+      "finite_reconstruction": {
+        "maximum_E_limit_estimate": 0.00043066500727850787,
+        "scope": "Limit estimated from t squared g at finite t; not a sampled Einstein-error maximum.",
+        "source": "cusp_finite",
+        "t": 1000000,
+        "unit": "dimensionless E"
+      },
+      "scope": "37 cusp sites. Analytic E_infinity = abs(1 - inverse(Q)[0,0]) for the constant limiting tensor Q. These are not additional samples on the finite-depth profile plots.",
+      "shape_spread_definition": "Frobenius differences of normalized cusp-limit shape matrices across images of the same cusp.",
+      "site_shape_spread_per_cusp": [
+        0.0009403382739636397,
+        0.0009921792076132226,
+        0.0018907428109786073,
+        0.0018957746662153642
+      ],
+      "source": "cusp_analytic",
+      "source_keys": [
+        "values",
+        "raw022"
+      ]
+    }
+  },
+  "global_integrals": {
+    "quotient087": {
+      "domain": "Stated half-open slab fundamental domain, body/cap/native-cusp decomposition and analytic tails beyond t=100. For the raw field, incompatibility prevents treating this as a unique quotient-domain integral.",
+      "einstein_volume_identity_difference": {
+        "ci95_half_width": 5.053040463055705e-05,
+        "se": 2.3707061110511256e-05,
+        "unit": "curvature-radius to the fourth power",
+        "value": 0.02667395820053442
+      },
+      "euler_integral_minus_2": {
+        "ci95_half_width": 7.90044513360622e-05,
+        "se": 3.706606684668837e-05,
+        "unit": "dimensionless",
+        "value": -3.8185652496414146e-05
+      },
+      "evaluated_points": 272384,
+      "independent_crosscheck": {
+        "note": "Affordable deterministic tensor rules under-resolve reflection collars. This is not a third successful confirmation; it does not refute the randomized estimates.",
+        "source": "integrals_deterministic",
+        "status": "inconclusive for quotient Euler/Weyl integrals"
+      },
+      "integrated_W2": {
+        "ci95_half_width": 0.0011374244197264165,
+        "se": 0.0005336389135252546,
+        "unit": "dimensionless; full tensor contraction",
+        "value": 6.4510875281810325
+      },
+      "measure": "Physical volume measure, stratified scrambled-Sobol integration with analytic reference control variates and cusp-tail treatment.",
+      "replicas": 16,
+      "source": "integrals_quotient",
+      "source_keys": [
+        "values",
+        "derived"
+      ],
+      "tail_start_t": 100.0,
+      "uncertainty": "SE is the spread-based standard error across 16 randomized replicas; the 95% half-width uses 15 degrees of freedom. Neither is a rigorous total-error bound.",
+      "volume": {
+        "ci95_half_width": 1.0624209721110882e-05,
+        "se": 4.984499747246271e-06,
+        "unit": "curvature-radius to the fourth power",
+        "value": 26.076823714097948
+      },
+      "volume_weighted_E_RMS": {
+        "ci95_half_width": 2.3522870164122902e-05,
+        "se": 1.1036090539006948e-05,
+        "unit": "dimensionless E",
+        "value": 0.015708194853059104
+      }
+    },
+    "raw022": {
+      "domain": "Stated half-open slab fundamental domain, body/cap/native-cusp decomposition and analytic tails beyond t=100. For the raw field, incompatibility prevents treating this as a unique quotient-domain integral.",
+      "einstein_volume_identity_difference": {
+        "ci95_half_width": 1.3391018900580709e-05,
+        "se": 6.2825877949946346e-06,
+        "unit": "curvature-radius to the fourth power",
+        "value": 0.0017481816801125927
+      },
+      "euler_integral_minus_2": {
+        "ci95_half_width": 1.138250422686004e-06,
+        "se": 5.340264446124006e-07,
+        "unit": "dimensionless",
+        "value": 0.0002119795231590449
+      },
+      "evaluated_points": 1157120,
+      "independent_crosscheck": {
+        "note": "Separate deterministic decompositions and resolution studies reproduce the raw-state totals.",
+        "source": "integrals_deterministic",
+        "status": "reproduced for the raw state"
+      },
+      "integrated_W2": {
+        "ci95_half_width": 7.135733823320359e-05,
+        "se": 3.347831450284845e-05,
+        "unit": "dimensionless; full tensor contraction",
+        "value": 6.213045922451732
+      },
+      "measure": "Physical volume measure, stratified scrambled-Sobol integration with analytic reference control variates and cusp-tail treatment.",
+      "replicas": 16,
+      "source": "integrals_raw",
+      "source_keys": [
+        "values",
+        "derived"
+      ],
+      "tail_start_t": 100.0,
+      "uncertainty": "SE is the spread-based standard error across 16 randomized replicas; the 95% half-width uses 15 degrees of freedom. Neither is a rigorous total-error bound.",
+      "volume": {
+        "ci95_half_width": 1.22960905654636e-05,
+        "se": 5.768886526579411e-06,
+        "unit": "curvature-radius to the fourth power",
+        "value": 26.061816337816246
+      },
+      "volume_weighted_E_RMS": {
+        "ci95_half_width": 2.5866344570048255e-07,
+        "se": 1.2135565030818057e-07,
+        "unit": "dimensionless E",
+        "value": 0.00029960614937773924
+      }
+    }
+  },
+  "identities": {
+    "quotient087": {
+      "audit_export_sha256": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+      "checkpoint_sha256": "be63d741ed07a9fd3bc7fa7e00aa9a4e0f49253da11db084fcd8c6ed9deba9bb",
+      "id": "R4-087/joint-best",
+      "metadata_sha256": "e26597a92ff5d125d1ca260b5d2c04164028bf9fd640d6a55aba89a2a1ceaed5",
+      "original_pool_sha256": {
+        "development_pool": "5b7fc7830675a6726827b6fb9fb83b62c5dc616686bb3453b929a0b6b9df5278",
+        "monitor_pool": "72e6f93841fec0b54f0939130da5daed0b6a52b4d50da03001197c52f8f82ea8",
+        "training_pool": "86fcf06a2781a4c5df2b4b602d9363fcd6e6cdecdd5b12fd71368347b2bb28f4"
+      },
+      "parameter_leaf_count": 17,
+      "physical_state_sha256": "d4a2763fb2d06a4b03a1b6574cd93cbab08edc54e24b6b36d13858a32c25f055",
+      "step": 26838
+    },
+    "raw022": {
+      "audit_export_sha256": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176",
+      "checkpoint_sha256": "acd17067d2e4fc9b6f9bdb5414b742a395e9c4a7f7b6aa4f3f134e0ef89ac152",
+      "id": "R4-022/joint-best",
+      "metadata_sha256": "8ce14dc3c646adfc3e3c2c980a27d96e2ce4bac3c8435b54cc5d6250b1f78df2",
+      "original_pool_sha256": {
+        "development_pool": "5b7fc7830675a6726827b6fb9fb83b62c5dc616686bb3453b929a0b6b9df5278",
+        "monitor_pool": "72e6f93841fec0b54f0939130da5daed0b6a52b4d50da03001197c52f8f82ea8",
+        "training_pool": "29023464a3687de93bb6771104dae848c70731e122a6cfe6be5cbb6913063ab5"
+      },
+      "parameter_leaf_count": 11,
+      "physical_state_sha256": "d0c2ba35517ce735c2f074026cdec90a07f7844c4a6342f25cd2b0340ecb56d7",
+      "step": 402034
+    }
+  },
+  "license": "CC-BY-4.0",
+  "purpose": "Additional saved checks of the same two frozen states; no new metric evaluations.",
+  "saved_extracts": {
+    "attribution": {
+      "builder_commit_metadata": {
+        "author": "Codex",
+        "commit": "b5e4b3fb5852c0cbd4c07912e36371ae0395fe6b",
+        "date": "2026-10-23T17:50:07+02:00",
+        "subject": "Update two-construction M4 note with verified independent audit findings"
+      },
+      "excerpts": {
+        "audit_gate": [
+          "- Opus: H1, H2, H5, H9.",
+          "- Sonnet: H3, H4, H6, H7, H8.",
+          "- Fable: G2."
+        ],
+        "audit_plan": [
+          "  - **Opus 5.5 at `effort:'high'`** for math-critical and verification work: F1 (math, K sign), F9 (G1 verifier), H1/H2 (g_loc gluing), H5 (cusps, invariants), the red-team refuters, H9, the final reviewer.",
+          "  - **Sonnet 5.5 at `effort:'high'`** for engineering and finishing: F2, F4\u2013F8 wrap-ups, H3, H4, H6, H7, H8, R1, the report writer.",
+          "  - **Fable 5.1, only for confined, important double-checks**, one per gate. Each has a narrow question, a cap of ~20 min of compute, and does not build anything."
+        ]
+      }
+    },
+    "core_area": {
+      "bh_closed": {
+        "area": 0.35348642284405757
+      },
+      "quotient087": {
+        "area": 0.3266816902214681,
+        "rel_area": -0.07582959596276917
+      },
+      "raw022": {
+        "area": 0.372652905222665,
+        "rel_area": 0.05422126888042533
+      }
+    },
+    "core_surface": {
+      "quotient087": {
+        "A_coord": 0.32668169019543825,
+        "A_min": 0.32666490301459633,
+        "A_min_K2n24": 0.3266649030180547,
+        "coord_minus_min_rel": 5.138696580108952e-05,
+        "rel_Amin_vs_BH": -0.07587708634934953
+      },
+      "raw022": {
+        "A_coord": 0.3726528556361611,
+        "A_min": 0.3726528556361611,
+        "A_min_K2n24": 0.37265284143755373,
+        "coord_minus_min_rel": 0.0,
+        "rel_Amin_vs_BH": 0.0542211286020422
+      }
+    },
+    "corrections": {
+      "id": "AR-001",
+      "notes": "Not corrected: the response's statement that the linear solve was still improving; it converged (normal-equation residual 1.1e-2), the nonlinear LM runs were stopped early.",
+      "statement": "The notes' author accepts the audit's measurements (ridge defects, broad g_quot error, new extrema, polishing tradeoff) and proposes a corrected abstract wording for g_quot. Five audit verdicts were corrected: (1) the 'flat' smoothing (3.3 %) is not C1 and is struck; (2) the polishing stall is a bottleneck of the tested procedure, not an architecture limit (WS12-001 -> minor); (3) g_loc's face residuals are conditional, not tautological, and |W|^2=12 at the core is non-discriminating; (4) six label claims reclassified as ambiguous with disclosed caveats; (5) R7-001 reworded as 'at or above the bar' (leading-order estimate). No measurement is contested.",
+      "ts": "2026-10-23T17:58:57+02:00"
+    },
+    "cusp_analytic": {
+      "controls": {
+        "C1_gH_maxE": 1.4376325948965071e-15,
+        "C2_max_abs_E_minus_closed": 3.677613769070831e-16,
+        "C4_closed_f64_vs_mp": 7.94355035407285e-19
+      },
+      "mp_max_abs_diff": 1.5425486409037514e-15,
+      "quotient087": {
+        "E_inf_argmax_site": 0,
+        "E_inf_closed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "E_inf_max": 0.0,
+        "E_inf_median": 0.0,
+        "E_inf_min": 0.0,
+        "max_abs_E1e8_minus_closed": 1.2099933040464487e-10,
+        "max_abs_Qnum1e7_minus_cusp_limit": 1.1102230246251565e-16,
+        "site_spread_per_cusp": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "raw022": {
+        "E_inf_argmax_site": 4,
+        "E_inf_closed": [
+          1.6107778415541674e-06,
+          4.5222470210215526e-05,
+          2.7607075835267558e-05,
+          0.00011991199397121122,
+          0.0004306840897633224,
+          6.021344189255373e-06,
+          3.603747297231674e-05,
+          1.2424979086933519e-05,
+          3.108761749670563e-05,
+          0.00011279297321942217,
+          3.2486255357677685e-05,
+          0.00014197190241338475,
+          4.976183913274479e-05,
+          0.00025784840573273016,
+          0.00022719135835747029,
+          5.735078018342943e-05,
+          0.00024539387380628774,
+          7.5042822541449e-05,
+          0.00010098649432888074,
+          2.4862737523445588e-05,
+          0.00018438104423401658,
+          0.0001552256812448194,
+          0.00013361528986766125,
+          0.00012435403428645575,
+          0.00015645982791179236,
+          0.0002777993673134249,
+          0.00024807218199862646,
+          0.0002482577386414553,
+          8.213937602630228e-05,
+          0.00011246704392509077,
+          6.115678288454163e-05,
+          3.4292223291987334e-05,
+          0.0001502065170595479,
+          0.0001456684502860739,
+          0.00015326059687226223,
+          0.00015610059545145827,
+          0.00016961856545005816
+        ],
+        "E_inf_max": 0.0004306840897633224,
+        "E_inf_median": 0.00011991199397121122,
+        "E_inf_min": 1.6107778415541674e-06,
+        "max_abs_E1e8_minus_closed": 9.468957724105532e-08,
+        "max_abs_Qnum1e7_minus_cusp_limit": 8.631918957391349e-09,
+        "site_spread_per_cusp": [
+          0.0009403382739636397,
+          0.0009921792076132226,
+          0.0018907428109786073,
+          0.0018957746662153642
+        ]
+      }
+    },
+    "cusp_finite": {
+      "quotient087": {
+        "E_inf": {
+          "argmax": 0,
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "max_X_spread_t2g": 1.1102230246251565e-16,
+        "site_spread_frobenius": [
+          1.197885481783886e-20,
+          1.9166167708542177e-20,
+          9.583083854271089e-21,
+          1.197885481783886e-21
+        ]
+      },
+      "raw022": {
+        "E_inf": {
+          "argmax": 4,
+          "max": 0.00043066500727850787,
+          "median": 0.00011992759721990431,
+          "min": 1.594256925696591e-06
+        },
+        "max_X_spread_t2g": 3.581643308840773e-09,
+        "site_spread_frobenius": [
+          0.0009403303382161664,
+          0.0009921657067651945,
+          0.001890725796633622,
+          0.001895757649055276
+        ]
+      }
+    },
+    "integrals_deterministic": {
+      "quotient087": {
+        "runs": {
+          "A_lo": {
+            "V": 26.076878932482266,
+            "W2": 6.470386644899208,
+            "chi_m2": 0.00018439487627253115,
+            "identity_lhs": 0.027533306448109585,
+            "identity_rhs": 0.027533306448091644,
+            "int_E2": 0.006977165176080303
+          }
+        }
+      },
+      "raw022": {
+        "runs": {
+          "A_hi": {
+            "V": 26.061825677778206,
+            "W2": 6.213013967132707,
+            "chi_m2": 0.00021241246877101716,
+            "identity_lhs": 0.0017561901704468141,
+            "identity_rhs": 0.0017561901705024161,
+            "int_E2": 2.342721842005679e-06
+          },
+          "A_lo": {
+            "V": 26.061863522137063,
+            "W2": 6.213250763038216,
+            "chi_m2": 0.00021432065243320864,
+            "identity_lhs": 0.0018039010253652066,
+            "identity_rhs": 0.001803901025351835,
+            "int_E2": 2.3271641523583097e-06
+          },
+          "B_lo": {
+            "V": 26.061651538481165,
+            "W2": 6.209730757351528,
+            "chi_m2": 0.0001892757346113605,
+            "identity_lhs": 0.001445250465856418,
+            "identity_rhs": 0.0014452504658768364,
+            "int_E2": 2.338252964056243e-06
+          },
+          "B_lo2": {
+            "V": 26.0618223754663,
+            "W2": 6.213038948875029,
+            "chi_m2": 0.00021217856245980826,
+            "identity_lhs": 0.0017539287644687818,
+            "identity_rhs": 0.001753928764486805,
+            "int_E2": 2.3377834706373498e-06
+          },
+          "B_mid": {
+            "V": 26.06182115851713,
+            "W2": 6.2130583410402025,
+            "chi_m2": 0.00021261234023839393,
+            "identity_lhs": 0.0017535198221843018,
+            "identity_rhs": 0.0017535198221543492,
+            "int_E2": 2.343333580178236e-06
+          }
+        }
+      }
+    },
+    "integrals_quotient": {
+      "allocation": {
+        "body": 8192,
+        "cap0": 2048,
+        "cap1": 2048,
+        "cap2": 2048,
+        "cap3": 128,
+        "cusp0_0": 512,
+        "cusp0_1": 128,
+        "cusp1_0": 512,
+        "cusp1_1": 128,
+        "cusp2_0": 512,
+        "cusp2_1": 128,
+        "cusp3_0": 512,
+        "cusp3_1": 128
+      },
+      "derived": {
+        "E_rms": {
+          "ci95": 2.3522870164122902e-05,
+          "mean": 0.015708194853059104,
+          "se": 1.1036090539006948e-05
+        },
+        "V": {
+          "ci95": 1.0624209721110882e-05,
+          "mean": 26.076823714097948,
+          "se": 4.984499747246271e-06
+        },
+        "W2": {
+          "ci95": 0.0011374244197264165,
+          "mean": 6.4510875281810325,
+          "se": 0.0005336389135252546
+        },
+        "chi": {
+          "ci95": 7.90044513360622e-05,
+          "mean": 1.9999618143475035,
+          "se": 3.706606684668837e-05
+        },
+        "chi_minus_2": {
+          "ci95": 7.90044513360622e-05,
+          "mean": -3.8185652496414146e-05,
+          "se": 3.706606684668837e-05
+        },
+        "identity_lhs": {
+          "ci95": 5.053040463055705e-05,
+          "mean": 0.02667395820053442,
+          "se": 2.3707061110511256e-05
+        },
+        "identity_residual": {
+          "ci95": 2.0758551419881277e-15,
+          "mean": -2.790085870674197e-15,
+          "se": 9.73917091451936e-16
+        },
+        "identity_rhs": {
+          "ci95": 5.0530404630288225e-05,
+          "mean": 0.02667395820053721,
+          "se": 2.3707061110385132e-05
+        },
+        "int_E2": {
+          "ci95": 1.9268738625909177e-05,
+          "mean": 0.006434435718437898,
+          "se": 9.040203961688752e-06
+        },
+        "int_eS": {
+          "ci95": 0.0005189772213031058,
+          "mean": 0.0046296659184632966,
+          "se": 0.0002434855764633211
+        },
+        "int_eS2": {
+          "ci95": 8.185404440435385e-06,
+          "mean": 0.00034654443661341064,
+          "se": 3.840299413836548e-06
+        }
+      },
+      "metric": "quotient087",
+      "regional_integrals": {
+        "body": {
+          "E2": {
+            "mean": 0.0013153231831142674,
+            "se": 8.056676029286765e-06
+          },
+          "vol": {
+            "mean": 10.30860621343745,
+            "se": 5.0754106965243816e-06
+          }
+        },
+        "cap": {
+          "E2": {
+            "mean": 0.004783093370638192,
+            "se": 2.9405122545484515e-06
+          },
+          "vol": {
+            "mean": 10.430845792183893,
+            "se": 2.3427437647090902e-06
+          }
+        }
+      },
+      "replicas": 16,
+      "t_cut": 100.0
+    },
+    "integrals_raw": {
+      "allocation": {
+        "body": 32768,
+        "cap0": 8192,
+        "cap1": 8192,
+        "cap2": 16384,
+        "cap3": 128,
+        "cusp0_0": 1024,
+        "cusp0_1": 128,
+        "cusp1_0": 1024,
+        "cusp1_1": 128,
+        "cusp2_0": 2048,
+        "cusp2_1": 128,
+        "cusp3_0": 2048,
+        "cusp3_1": 128
+      },
+      "derived": {
+        "E_rms": {
+          "ci95": 2.5866344570048255e-07,
+          "mean": 0.00029960614937773924,
+          "se": 1.2135565030818057e-07
+        },
+        "V": {
+          "ci95": 1.22960905654636e-05,
+          "mean": 26.061816337816246,
+          "se": 5.768886526579411e-06
+        },
+        "W2": {
+          "ci95": 7.135733823320359e-05,
+          "mean": 6.213045922451732,
+          "se": 3.347831450284845e-05
+        },
+        "chi": {
+          "ci95": 1.138250422686004e-06,
+          "mean": 2.000211979523159,
+          "se": 5.340264446124006e-07
+        },
+        "chi_minus_2": {
+          "ci95": 1.138250422686004e-06,
+          "mean": 0.0002119795231590449,
+          "se": 5.340264446124006e-07
+        },
+        "identity_lhs": {
+          "ci95": 1.3391018900580709e-05,
+          "mean": 0.0017481816801125927,
+          "se": 6.2825877949946346e-06
+        },
+        "identity_residual": {
+          "ci95": 2.2336246198703516e-15,
+          "mean": -3.4138138279779517e-15,
+          "se": 1.0479368955851788e-15
+        },
+        "identity_rhs": {
+          "ci95": 1.3391018900583031e-05,
+          "mean": 0.0017481816801160066,
+          "se": 6.282587794995724e-06
+        },
+        "int_E2": {
+          "ci95": 4.041825429133165e-09,
+          "mean": 2.339414593263554e-06,
+          "se": 1.8962801336550865e-09
+        },
+        "int_eS": {
+          "ci95": 3.052225313136023e-06,
+          "mean": -0.0005232923405676096,
+          "se": 1.4319951037519992e-06
+        },
+        "int_eS2": {
+          "ci95": 1.7737213219199046e-09,
+          "mean": 4.476488692522893e-07,
+          "se": 8.321666940767663e-10
+        }
+      },
+      "metric": "raw022",
+      "regional_integrals": {
+        "body": {
+          "E2": {
+            "mean": 1.179125986715974e-06,
+            "se": 1.5292685507060295e-09
+          },
+          "vol": {
+            "mean": 10.352981102915038,
+            "se": 4.495335143343862e-06
+          }
+        },
+        "cap": {
+          "E2": {
+            "mean": 7.000986809487991e-07,
+            "se": 9.924415007219002e-10
+          },
+          "vol": {
+            "mean": 10.37844940579454,
+            "se": 2.9126986697576792e-06
+          }
+        }
+      },
+      "replicas": 16,
+      "t_cut": 100.0
+    }
+  },
+  "schema": 1,
+  "scientific_snapshot": "2026-10-23",
+  "sources": {
+    "audit_gate": {
+      "artifact": "redteam/G2_gate.md",
+      "bytes": 7265,
+      "date": "2026-10-22",
+      "date_scope": "Date of the selected model-role passage; the containing record includes later corrections through 23 October.",
+      "parameter_identity_binding": "Attribution only; not a metric measurement",
+      "sha256": "0ca2375a35eb744842cda4411e4db90e437293ba776f08b685e0a7b030910d03"
+    },
+    "audit_plan": {
+      "artifact": "spec/PLAN.md",
+      "bytes": 29784,
+      "date": "2026-10-21",
+      "date_scope": "Date of the selected model-role passage; the containing record includes later corrections through 23 October.",
+      "parameter_identity_binding": "Attribution only; not a metric measurement",
+      "sha256": "407d0b1b10055ee2eb44b4eebc555bf9d0dcf3a8690f7cccfe89f6b8dc062df9"
+    },
+    "builder_commit": {
+      "artifact": "b5e4b3fb5852c0cbd4c07912e36371ae0395fe6b",
+      "date": "2026-10-23T17:50:07+02:00",
+      "hash_method": "SHA256 of sorted compact JSON containing commit, date, author and subject.",
+      "parameter_identity_binding": "Attribution only; not a metric measurement",
+      "sha256": "6599def002023cf3d186efd78998ef6fd292ca59a12faa9d48cd62a2315bac8c"
+    },
+    "core_area": {
+      "artifact": "ws9_a4_systole.json",
+      "bytes": 4403,
+      "check_id": "ws9_a4_systole",
+      "date": "2026-10-21T23:48:23Z",
+      "parameter_export_sha256": {
+        "quotient087": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+        "raw022": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176"
+      },
+      "parameter_identity_binding": "explicit parameter-export hashes in the original source record",
+      "sha256": "ea8e5a3be0f9c846d77ae92bd8c36403a6e0990ee061a3a1299f6c7134bec05f",
+      "source_version": "88991b5568b5789f6e15836b2c8e282e52753c69"
+    },
+    "core_surface": {
+      "artifact": "r5_core_minimal.json",
+      "bytes": 14292,
+      "check_id": "r5_core_minimal",
+      "date": "2026-10-22T21:04:40Z",
+      "parameter_export_sha256": {
+        "quotient087": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+        "raw022": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176"
+      },
+      "parameter_identity_binding": "explicit parameter-export hashes in the original source record",
+      "sha256": "1454f151f7b188a73386668ddba85e39a747b8cbc0f1229fec74700891e20913",
+      "source_version": "436e15d (worktree HEAD at session start; uncommitted r5 code)"
+    },
+    "corrections": {
+      "artifact": "AR-001",
+      "date": "2026-10-23T17:58:57+02:00",
+      "hash_method": "SHA256 of the original JSON record, sorted keys and compact separators",
+      "parameter_identity_binding": "editorial record; not a metric measurement",
+      "sha256": "3af8e2079d86f81783373d39c796e54d834aa89e07f86670fe21ce4ebccfdf1b",
+      "source_version": "corrections recorded in commit 3373aaf"
+    },
+    "cusp_analytic": {
+      "artifact": "ws9_a3_cusps.json",
+      "bytes": 32475,
+      "check_id": "ws9_a3_cusps",
+      "date": "2026-10-21T23:46:56Z",
+      "parameter_export_sha256": {
+        "quotient087": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+        "raw022": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176"
+      },
+      "parameter_identity_binding": "explicit parameter-export hashes in the original source record",
+      "sha256": "77a978349089429d68b752085c0576e1ee4092ff2c2d020320bdecb1eb9b9757",
+      "source_version": "88991b5568b5789f6e15836b2c8e282e52753c69"
+    },
+    "cusp_finite": {
+      "artifact": "r5_cusp_spectra.json",
+      "bytes": 4465,
+      "check_id": "r5_cusp_spectra",
+      "date": "2026-10-22T21:04:40Z",
+      "parameter_export_sha256": {
+        "quotient087": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+        "raw022": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176"
+      },
+      "parameter_identity_binding": "explicit parameter-export hashes in the original source record",
+      "sha256": "1ffca5d2b8604fdb7f518f8dc66356f48b0dd16e270c518a2092c4a1b7d52861",
+      "source_version": "436e15d (session start)"
+    },
+    "integrals_deterministic": {
+      "artifact": "r6_det_integrals.json",
+      "bytes": 26931,
+      "check_id": "r6_det_integrals",
+      "date": "2026-10-23",
+      "parameter_export_sha256": {
+        "quotient087": "8869e9cc57810662bca33dcd36006498b84e18312dd464d83a949aa7095edfbe",
+        "raw022": "7e40f5cc2204331a996aacfc0fcbbf2e5e76a9cda39f8da409e8016dbcae8176"
+      },
+      "parameter_identity_binding": "explicit parameter-export hashes in the original source record",
+      "sha256": "b80892a8ad48620df817625fe9caf785008f27577d436e84fc34ec4e65e669c3",
+      "source_version": "436e15d (HEAD at R6 start; uncommitted R6 files)"
+    },
+    "integrals_quotient": {
+      "artifact": "ws8_gquot.json",
+      "bytes": 28509,
+      "check_id": "ws8_gquot",
+      "date": "2026-10-22T10:24:40Z",
+      "parameter_export_sha256": null,
+      "parameter_identity_binding": "indirect: named metric registry and separately hash-bound reconstructions",
+      "sha256": "abeb43b9f1376ecb7342cedd2af9edee5abbff732987ff6b3e8039adae78d350",
+      "source_version": "112fbd67ef094fab51c2836c395d409edddb8b65"
+    },
+    "integrals_raw": {
+      "artifact": "ws8_gloc.json",
+      "bytes": 28847,
+      "check_id": "ws8_gloc",
+      "date": "2026-10-22T09:47:10Z",
+      "parameter_export_sha256": null,
+      "parameter_identity_binding": "indirect: named metric registry and separately hash-bound reconstructions",
+      "sha256": "de53f1f5cdfbf77edf6a59ad3b8abf0ba9f2d34e6d9582ecbffeab6abbce593d",
+      "source_version": "112fbd67ef094fab51c2836c395d409edddb8b65"
+    }
+  }
+}
